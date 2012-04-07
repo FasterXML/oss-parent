@@ -46,13 +46,14 @@
       <email></email>
     </developer>
     <developer>
+      <id>prb</id>
+      <name>Paul Brown</name>
+      <email>prb@fasterxml.com</email>
+    </developer>
+    <developer>
       <id>cowtowncoder</id>
       <name>Tatu Saloranta</name>
       <email>tatu@fasterxml.com</email>
-    </developer>
-    <developer>
-      <id>prb</id>
-      <name>Paul Brown</name>
     </developer>
   </developers>
 
