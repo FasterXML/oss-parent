@@ -1,9 +1,25 @@
 == Introduction ==
 
-This page will guide the development team with setting up their environment to perform a release.
+This project contains share parent POM for projects in FasterXML repository.
 
+== Usage ==
 
-== Prerequisites  ==
+When starting a new project, please use the already configured _parent pom_ to avoid replicate the same meta inf in every project:
+
+{{{
+<parent>
+  <groupId>com.fasterxml</groupId>
+  <artifactId>oss-parent</artifactId>
+  <version>1-SNAPSHOT</version>
+</parent>
+}}}
+
+== More detailed Usage ==
+
+Next sections detail release flow for projects that use the shared parent POM.
+You usually only need to read these once; and only if you handle releasing of new versions
+
+=== Prerequisites ===
 
  * Install/Configure GPG - The artifacts that are deployed to the central maven repositories need to be signed.
  To do this you will need to have a public and private keypair.
@@ -13,14 +29,14 @@ This page will guide the development team with setting up their environment to p
  * Install Maven 2.2.1 or higher. 2.2.0 has a bug that will produce invalid checksums;
  * We strongly encourage our developers to install Maven 3.0.4.
 
-== Configuration ==
+=== Configuration ===
 
-=== Maven ===
+==== Maven ====
 As of Maven 2.1.0 you can now encrypt your servers passwords.  We highly recommend that you follow this
 [[http://maven.apache.org/guides/mini/guide-encryption.html|guide]] to set your master password and use it to encrypt
 your Sonatype password in the next section.
 
-=== Sonatype ===
+==== Sonatype ====
 Using the instructions from the previous step encrypt your Sonatype password and add the following servers to your
 {{{~/.m2/settings.xml}}} file.  You may already have other servers in this file.  If not just create the file.
 {{{
@@ -42,21 +58,7 @@ Using the instructions from the previous step encrypt your Sonatype password and
 </settings>
 }}}
 
-=== Configure the parent pom ===
-If you're stared a new project, please use the already configured _parent pom_ to avoid replicate the same meta inf
-in every project:
-{{{
-<parent>
-  <groupId>com.fasterxml</groupId>
-  <artifactId>oss-parent</artifactId>
-  <version>1-SNAPSHOT</version>
-</parent>
-}}}
-
-Even if follows below a guide that illustrates how to simplify the development, please take a look at the source code to
-see what has been already declared and don't invest time on something already done.
-
-== Release ==
+=== Release ===
 
 The release plugin for maven is already configured in the parent pom file so all you need to do is execute the following
 two steps to complete the release. The first step will create the release tag and update the pom with the correct
@@ -80,7 +82,7 @@ following to build the artifacts for the site.
 
 {{{mvn package}}}
 
-== Managing Sonatype's Nexus ==
+=== Managing Sonatype's Nexus ===
 The parent pom is configured to work with Sonatype's Nexus to simplify the Staging Repository close and promote
 operation, without logging in on Nexus using the browser.
 First of all, add in the {{{~/.m2/settings.xml}}} the following snippet:
