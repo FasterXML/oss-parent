@@ -20,7 +20,7 @@
 
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>1</version>
   <packaging>pom</packaging>
 
   <name>FasterXML.com parent pom</name>
@@ -43,7 +43,7 @@
     <developer>
       <id>christophercurrie</id>
       <name>Christopher Currie</name>
-      <email></email>
+      <email />
     </developer>
     <developer>
       <id>prb</id>
