@@ -56,6 +56,12 @@
       <email>tatu@fasterxml.com</email>
     </developer>
   </developers>
+  <contributors>
+    <contributor>
+      <name>Simone Tripodi</name>
+      <email>simonetripodi@apache.org</email>
+    </contributor>
+  </contributors>
 
   <scm>
     <url>http://github.com/FasterXML/oss-parent</url>
