@@ -101,6 +101,7 @@
     <osgi.import>*</osgi.import>
     <osgi.dynamicImport />
     <osgi.private />
+    <osgi.requiredExecutionEnvironment />
     <!--
      | shared build/report plugins version
     -->
@@ -271,6 +272,7 @@
             <Import-Package>${osgi.import}</Import-Package>
             <DynamicImport-Package>${osgi.dynamicImport}</DynamicImport-Package>
             <Bundle-DocURL>${project.url}</Bundle-DocURL>
+            <Bundle-RequiredExecutionEnvironment>${osgi.requiredExecutionEnvironment}</Bundle-RequiredExecutionEnvironment>
           </instructions>
         </configuration>
         <executions>
