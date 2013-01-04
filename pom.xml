@@ -115,8 +115,10 @@
      | packageVersion.dir and packageVersion.package, and must set the phase of the
      | process-packageVersion execution of maven-replacer-plugin to 'generate-sources'.
     -->
+    <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
     <packageVersion.template.input>${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
-    <packageVersion.template.output>${packageVersion.dir}/PackageVersion.java</packageVersion.template.output>
+    <packageVersion.template.output>${generatedSourcesDir}/${packageVersion.dir}/PackageVersion.java</packageVersion.template.output>
+
   </properties>
 
   <repositories>
@@ -192,6 +194,13 @@
             <serverAuthId>sonatype-nexus-staging</serverAuthId>
           </configuration>
         </plugin>
+
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>1.7</version>
+        </plugin>
+
         <plugin>
           <groupId>com.google.code.maven-replacer-plugin</groupId>
           <artifactId>replacer</artifactId>
@@ -286,6 +295,25 @@
           <showWarnings>true</showWarnings>
           <optimize>true</optimize>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>add-generated-sources</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>add-source</goal>
+            </goals>
+            <configuration>
+              <sources>
+                <source>${generatedSourcesDir}</source>
+              </sources>
+            </configuration>
+          </execution>
+        </executions>
       </plugin>
 
       <plugin>
