@@ -109,6 +109,7 @@
     <surefire.version>2.12</surefire.version>
     <javadoc.version>2.8.1</javadoc.version>
     <javadoc.maxmemory>1g</javadoc.maxmemory>
+    <replacer.version>1.5.2</replacer.version>
 
     <!--
      | For automatically generating PackageVersion.java. Your child pom.xml must define
@@ -204,7 +205,7 @@
         <plugin>
           <groupId>com.google.code.maven-replacer-plugin</groupId>
           <artifactId>replacer</artifactId>
-          <version>1.5.2</version>
+          <version>${replacer.version}</version>
           <executions>
             <execution>
               <id>process-packageVersion</id>
@@ -244,6 +245,33 @@
                 <value>${project.artifactId}</value>
               </replacement>
             </replacements>
+          </configuration>
+        </plugin>
+        <plugin>
+          <!-- Work around Eclipse incompatibility (http://code.google.com/p/maven-replacer-plugin/issues/detail?id=66) -->
+          <groupId>org.eclipse.m2e</groupId>
+          <artifactId>lifecycle-mapping</artifactId>
+          <version>1.0.0</version>
+          <configuration>
+            <lifecycleMappingMetadata>
+              <pluginExecutions>
+                <pluginExecution>
+                  <pluginExecutionFilter>
+                    <groupId>com.google.code.maven-replacer-plugin</groupId>
+                    <artifactId>replacer</artifactId>
+                    <versionRange>[${replacer.version},)</versionRange>
+                    <goals>
+                      <goal>replace</goal>
+                    </goals>
+                  </pluginExecutionFilter>
+                  <action>
+                    <execute>
+                      <runOnIncremental>false</runOnIncremental>
+                    </execute>
+                  </action>
+                </pluginExecution>
+              </pluginExecutions>
+            </lifecycleMappingMetadata>
           </configuration>
         </plugin>
       </plugins>
