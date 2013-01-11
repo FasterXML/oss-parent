@@ -92,8 +92,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <javac.src.version>1.5</javac.src.version>
-    <javac.target.version>1.5</javac.target.version>
+    <!-- 10-Jan-2013, tatu: Jackson 2.2 and above will be Java 6
+        (earlier versions Java 5)
+      -->
+    <javac.src.version>1.6</javac.src.version>
+    <javac.target.version>1.6</javac.target.version>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
     <!--
      | Configuration properties for the OSGi maven-bundle-plugin
@@ -117,7 +120,7 @@
      | process-packageVersion execution of maven-replacer-plugin to 'generate-sources'.
     -->
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
-    <packageVersion.template.input>${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
+    <packageVersion.template.input>src/main/java/${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
     <packageVersion.template.output>${generatedSourcesDir}/${packageVersion.dir}/PackageVersion.java</packageVersion.template.output>
 
   </properties>
