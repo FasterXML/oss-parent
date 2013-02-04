@@ -120,7 +120,7 @@
      | process-packageVersion execution of maven-replacer-plugin to 'generate-sources'.
     -->
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
-    <packageVersion.template.input>src/main/java/${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
+    <packageVersion.template.input>${basedir}/src/main/java/${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
     <packageVersion.template.output>${generatedSourcesDir}/${packageVersion.dir}/PackageVersion.java</packageVersion.template.output>
 
   </properties>

@@ -10,7 +10,7 @@ When starting a new project, please use the already configured _parent pom_ to a
 <parent>
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>7</version>
 </parent>
 }}}
 
