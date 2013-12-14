@@ -102,6 +102,9 @@
       -->
     <javac.src.version>1.6</javac.src.version>
     <javac.target.version>1.6</javac.target.version>
+    <!-- 13-Dec-2013, tatu: By default, include all debug info; "vars" adds 10-15% in size
+      -->
+    <javac.debuglevel>lines,source,vars</javac.debuglevel>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
     <!--
      | Configuration properties for the OSGi maven-bundle-plugin
@@ -377,7 +380,7 @@
               use these to reduce jar size
             -->
           <debug>true</debug>
-          <debuglevel>lines,source</debuglevel>
+          <debuglevel>${javac.debuglevel}</debuglevel>
         </configuration>
       </plugin>
 
