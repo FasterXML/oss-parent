@@ -5,7 +5,7 @@
 
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>16-SNAPSHOT</version>
+  <version>15-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>FasterXML.com parent pom</name>
@@ -16,6 +16,16 @@
     <name>FasterXML</name>
     <url>http://fasterxml.com/</url>
   </organization>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <!-- to fill in by children -->
+  <developers />
 
   <scm>
     <url>http://github.com/FasterXML/oss-parent</url>
