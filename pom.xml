@@ -24,8 +24,18 @@
     </license>
   </licenses>
 
-  <!-- to fill in by children -->
-  <developers />
+  <!-- to fill in mostly by children, but stupid Sonatype REQUIRES
+       one developer already here
+    -->
+  <developers>
+    <developer>
+    <developer>
+      <id>cowtowncoder</id>
+      <name>Tatu Saloranta</name>
+      <email>tatu@fasterxml.com</email>
+    </developer>
+  </developers>
+  <contributors>
 
   <scm>
     <url>http://github.com/FasterXML/oss-parent</url>
