@@ -21,7 +21,7 @@
     <url>http://github.com/FasterXML/oss-parent</url>
     <connection>scm:git:ssh://github.com/FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/FasterXML/oss-parent.git</developerConnection>
-    <tag>oss-parent-13</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -72,6 +72,8 @@
     <surefire.version>2.12</surefire.version>
     <javadoc.version>2.8.1</javadoc.version>
     <javadoc.maxmemory>1g</javadoc.maxmemory>
+
+    <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
 
   </properties>
 
