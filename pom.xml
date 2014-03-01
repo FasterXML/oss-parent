@@ -47,8 +47,13 @@
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <!-- 13-Dec-2013, tatu: By default, include all debug info; "vars" adds 10-15% in size
-      -->
+    <!-- Use 1.6 as default baseline -->
+    <javac.src.version>1.6</javac.src.version>
+    <javac.target.version>1.6</javac.target.version>
+
+    <!-- By default, include all debug info; "vars" and "lines" both add 10-15% in size,
+         "source" very little
+     -->
     <javac.debuglevel>lines,source,vars</javac.debuglevel>
     <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssZ</maven.build.timestamp.format>
     <!--
