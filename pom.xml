@@ -1,19 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
- |  Copyright 2012 FasterXML.com
- |
- |  Licensed under the Apache License, Version 2.0 (the "License");
- |  you may not use this file except in compliance with the License.
- |  You may obtain a copy of the License at
- |
- |    http://www.apache.org/licenses/LICENSE-2.0
- |
- |  Unless required by applicable law or agreed to in writing, software
- |  distributed under the License is distributed on an "AS IS" BASIS,
- |  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- |  See the License for the specific language governing permissions and
- |  limitations under the License.
--->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
@@ -31,42 +16,6 @@
     <name>FasterXML</name>
     <url>http://fasterxml.com/</url>
   </organization>
-  <licenses>
-    <license>
-      <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-    <license>
-      <name>GNU Lesser General Public License, Version 2.1</name>
-      <url>http://www.gnu.org/licenses/lgpl-2.1.html</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <developers>
-    <developer>
-      <id>christophercurrie</id>
-      <name>Christopher Currie</name>
-      <email />
-    </developer>
-    <developer>
-      <id>prb</id>
-      <name>Paul Brown</name>
-      <email>prb@fasterxml.com</email>
-    </developer>
-    <developer>
-      <id>cowtowncoder</id>
-      <name>Tatu Saloranta</name>
-      <email>tatu@fasterxml.com</email>
-    </developer>
-  </developers>
-  <contributors>
-    <contributor>
-      <name>Simone Tripodi</name>
-      <email>simonetripodi@apache.org</email>
-    </contributor>
-  </contributors>
 
   <scm>
     <url>http://github.com/FasterXML/oss-parent</url>
@@ -97,11 +46,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <!-- 10-Jan-2013, tatu: Jackson 2.2 and above will be Java 6
-        (earlier versions Java 5)
-      -->
-    <javac.src.version>1.6</javac.src.version>
-    <javac.target.version>1.6</javac.target.version>
+
     <!-- 13-Dec-2013, tatu: By default, include all debug info; "vars" adds 10-15% in size
       -->
     <javac.debuglevel>lines,source,vars</javac.debuglevel>
@@ -122,16 +67,6 @@
     <surefire.version>2.12</surefire.version>
     <javadoc.version>2.8.1</javadoc.version>
     <javadoc.maxmemory>1g</javadoc.maxmemory>
-    <replacer.version>1.5.2</replacer.version>
-
-    <!--
-     | For automatically generating PackageVersion.java. Your child pom.xml must define
-     | packageVersion.dir and packageVersion.package, and must set the phase of the
-     | process-packageVersion execution of maven-replacer-plugin to 'generate-sources'.
-    -->
-    <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
-    <packageVersion.template.input>${basedir}/src/main/java/${packageVersion.dir}/PackageVersion.java.in</packageVersion.template.input>
-    <packageVersion.template.output>${generatedSourcesDir}/${packageVersion.dir}/PackageVersion.java</packageVersion.template.output>
 
   </properties>
 
@@ -256,78 +191,6 @@
           <version>1.7</version>
         </plugin>
 
-        <plugin>
-          <groupId>com.google.code.maven-replacer-plugin</groupId>
-          <artifactId>replacer</artifactId>
-          <version>${replacer.version}</version>
-          <executions>
-            <execution>
-              <id>process-packageVersion</id>
-              <goals>
-                <goal>replace</goal>
-              </goals>
-              <!--
-               | We explicitly omit 'phase' here so child poms can opt in to
-               | generating their PackageVersion.java file.
-               |
-               | If your child pom wants a PackageVersion.java file, define
-               | the 'packageVersion.dir' and 'packageVersion.package' properties
-               | and include the commented-out section in your child pom's plugin
-               | for this execution ID.
-               <phase>generate-sources</phase>
-              -->
-            </execution>
-          </executions>
-          <configuration>
-            <file>${packageVersion.template.input}</file>
-            <outputFile>${packageVersion.template.output}</outputFile>
-            <replacements>
-              <replacement>
-                <token>@package@</token>
-                <value>${packageVersion.package}</value>
-              </replacement>
-              <replacement>
-                <token>@projectversion@</token>
-                <value>${project.version}</value>
-              </replacement>
-              <replacement>
-                <token>@projectgroupid@</token>
-                <value>${project.groupId}</value>
-              </replacement>
-              <replacement>
-                <token>@projectartifactid@</token>
-                <value>${project.artifactId}</value>
-              </replacement>
-            </replacements>
-          </configuration>
-        </plugin>
-        <plugin>
-          <!-- Work around Eclipse incompatibility (http://code.google.com/p/maven-replacer-plugin/issues/detail?id=66) -->
-          <groupId>org.eclipse.m2e</groupId>
-          <artifactId>lifecycle-mapping</artifactId>
-          <version>1.0.0</version>
-          <configuration>
-            <lifecycleMappingMetadata>
-              <pluginExecutions>
-                <pluginExecution>
-                  <pluginExecutionFilter>
-                    <groupId>com.google.code.maven-replacer-plugin</groupId>
-                    <artifactId>replacer</artifactId>
-                    <versionRange>[${replacer.version},)</versionRange>
-                    <goals>
-                      <goal>replace</goal>
-                    </goals>
-                  </pluginExecutionFilter>
-                  <action>
-                    <execute>
-                      <runOnIncremental>false</runOnIncremental>
-                    </execute>
-                  </action>
-                </pluginExecution>
-              </pluginExecutions>
-            </lifecycleMappingMetadata>
-          </configuration>
-        </plugin>
       </plugins>
     </pluginManagement>
 
