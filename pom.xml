@@ -65,12 +65,15 @@
     <osgi.private />
     <osgi.requiredExecutionEnvironment />
     <osgi.versionpolicy>${range;[===,=+);${@}}</osgi.versionpolicy>
+
     <!--
      | shared build/report plugins version
     -->
+    <version.plugin.replacer>1.5.2</version.plugin.replacer>
     <bundle.version>2.3.7</bundle.version>
     <surefire.version>2.12</surefire.version>
     <javadoc.version>2.8.1</javadoc.version>
+
     <javadoc.maxmemory>1g</javadoc.maxmemory>
 
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
