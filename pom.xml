@@ -21,7 +21,7 @@
     <url>http://github.com/FasterXML/oss-parent</url>
     <connection>scm:git:ssh://github.com/FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git+ssh://git@github.com/FasterXML/oss-parent.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>oss-parent-13</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -167,7 +167,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.4.1</version>
+          <version>2.4.2</version>
           <configuration>
             <mavenExecutorId>forked-path</mavenExecutorId>
             <useReleaseProfile>false</useReleaseProfile>
