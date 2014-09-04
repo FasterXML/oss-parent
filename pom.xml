@@ -5,7 +5,7 @@
 
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>18</version>
+  <version>18-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>FasterXML.com parent pom</name>
@@ -91,7 +91,7 @@
     <version.plugin.bundle>2.5.3</version.plugin.bundle>
     <version.plugin.jar>2.5</version.plugin.jar>
     <version.plugin.javadoc>2.8.1</version.plugin.javadoc>
-    <version.plugin.release>2.5</version.plugin.release>
+    <version.plugin.release>2.4.2</version.plugin.release>
     <version.plugin.replacer>1.5.2</version.plugin.replacer>
     <version.plugin.surefire>2.17</version.plugin.surefire>
 
