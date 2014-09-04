@@ -5,7 +5,7 @@
 
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>18</version>
+  <version>18-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>FasterXML.com parent pom</name>
@@ -209,7 +209,7 @@
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-maven-plugin</artifactId>
-          <version>2.0.6</version>
+          <version>1.9.2.4</version>
           <configuration>
             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
             <serverAuthId>sonatype-nexus-staging</serverAuthId>
