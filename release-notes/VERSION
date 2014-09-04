@@ -1,0 +1,9 @@
+Project: oss-parent
+Descrption: This is the parent pom for various FasterXML projects.
+Version: 17 (03-Sep-2014)
+
+- Updates to plug-in versions
+  o Note: GPG plugin left at 2.4; 2.5 appears to have bug(s) that result in asking for password
+    more than twice, print bogus warning/error messages.
+
+
