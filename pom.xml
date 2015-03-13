@@ -90,7 +90,7 @@
     <!-- 03-Sep-2014: updated from 2.3.7 -->
     <version.plugin.bundle>2.5.3</version.plugin.bundle>
     <version.plugin.jar>2.5</version.plugin.jar>
-    <version.plugin.javadoc>2.8.1</version.plugin.javadoc>
+    <version.plugin.javadoc>2.10.1</version.plugin.javadoc>
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.1</version.plugin.release>
     <version.plugin.replacer>1.5.2</version.plugin.replacer>
