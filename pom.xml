@@ -39,7 +39,7 @@
     <connection>scm:git:git@github.com:FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:FasterXML/oss-parent.git</developerConnection>
     <url>http://github.com/FasterXML/oss-parent</url>
-    <tag>oss-parent-19</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -92,7 +92,7 @@
     <version.plugin.jar>2.5</version.plugin.jar>
     <version.plugin.javadoc>2.8.1</version.plugin.javadoc>
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
-    <version.plugin.release>2.5.1</version.plugin.release>
+    <version.plugin.release>2.5.2</version.plugin.release>
     <version.plugin.replacer>1.5.2</version.plugin.replacer>
     <version.plugin.surefire>2.17</version.plugin.surefire>
 
