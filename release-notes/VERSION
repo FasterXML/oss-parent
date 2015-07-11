@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-22 (11-Jul-2015)
+23 (11-Jul-2015)
 
 - Update javadoc-plugin 2.8.1 -> 2.9.1 and release-plugin 2.5.1 -> 2.5.2
  NOTE: bundle plugin remains at 2.5.3; 2.5.4 has known issues with Shade plugin
