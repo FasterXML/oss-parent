@@ -91,7 +91,7 @@
     <!-- 11-Jul-2015, tatu: For some reason version 2.5.4 fails when
        used with Shade plugin (2.2 - 2.4); hence 2.5.3 is still used for Jackson 2.6
       -->
-    <version.plugin.bundle>2.5.4</version.plugin.bundle>
+    <version.plugin.bundle>2.5.3</version.plugin.bundle>
 
     <version.plugin.jar>2.5</version.plugin.jar>
     <version.plugin.javadoc>2.9.1</version.plugin.javadoc>
