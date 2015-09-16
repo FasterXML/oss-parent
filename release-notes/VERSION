@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+24 (not yet released)
+
+- Add ${osgi.includeResource} to allow custuom <Include-Resource> definitions
+
 23 (11-Jul-2015)
 
 - Update javadoc-plugin 2.8.1 -> 2.9.1 and release-plugin 2.5.1 -> 2.5.2

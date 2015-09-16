@@ -83,7 +83,7 @@
     <osgi.private />
     <osgi.requiredExecutionEnvironment />
     <osgi.versionpolicy>${range;[===,=+);${@}}</osgi.versionpolicy>
-
+    <osgi.includeResource>{maven-resources}</osgi.includeResource>
     <!--
      | shared build/report plugins version
     -->
@@ -182,8 +182,10 @@
               <Private-Package>${osgi.private}</Private-Package>
               <Import-Package>${osgi.import}</Import-Package>
               <DynamicImport-Package>${osgi.dynamicImport}</DynamicImport-Package>
+              <Include-Resource>${osgi.includeResource}</Include-Resource>
               <Bundle-DocURL>${project.url}</Bundle-DocURL>
               <Bundle-RequiredExecutionEnvironment>${osgi.requiredExecutionEnvironment}</Bundle-RequiredExecutionEnvironment>
+
 
               <Implementation-Build-Date>${maven.build.timestamp}</Implementation-Build-Date>
               <X-Compile-Source-JDK>${javac.src.version}</X-Compile-Source-JDK>
