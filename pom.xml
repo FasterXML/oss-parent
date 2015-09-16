@@ -384,7 +384,7 @@
           <additionalJOption>-J-Xmx1024m</additionalJOption>
           <maxmemory>${javadoc.maxmemory}</maxmemory>
           <links>
-            <link>http://docs.oracle.com/javase/6/docs/api/</link>
+            <link>http://docs.oracle.com/javase/7/docs/api/</link>
           </links>
           <docletArtifact>
             <groupId>com.google.doclava</groupId>
