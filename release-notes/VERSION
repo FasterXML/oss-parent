@@ -9,6 +9,7 @@ The parent pom for various FasterXML projects.
 24 (not yet released)
 
 - Add ${osgi.includeResource} to allow custuom <Include-Resource> definitions
+- Update Javadoc JDK link to JavaSE7
 
 23 (11-Jul-2015)
 
