@@ -6,13 +6,17 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+26 (27-Dec-2015)
+
+- Add "osgi.mainClass" direective for custom main class.
+
 25 (10-Dec-2015)
 
 - Update javadoc JDK link to Java SE 7
 
 24 (15-Sep-2015)
 
-- Add ${osgi.includeResource} to allow custuom <Include-Resource> definitions
+- Add ${osgi.includeResource} to allow custom <Include-Resource> definitions
 
 23 (11-Jul-2015)
 
