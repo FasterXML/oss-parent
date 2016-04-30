@@ -6,6 +6,12 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+27 (29-Apr-2016)
+
+- Update maven-release-plugin: 2.5.2 -> 2.5.3
+- Update maven-shade-plugin:   2.4   -> 2.4.3
+- Update maven-bundle-plugin:  2.5.3 -> 3.0.1
+
 26 (27-Dec-2015)
 
 - Add "osgi.mainClass" direective for custom main class.
