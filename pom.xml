@@ -90,15 +90,14 @@
      | shared build/report plugins version
     -->
 
-    <!-- 11-Jul-2015, tatu: For some reason version 2.5.4 failed when
-       used with Shade plugin (2.2 - 2.4); hence 2.5.3 was still used for Jackson 2.7
-
-         29-Apr-2016, tatu: trying to upgrade to 3.0.1 now, for Jackson 2.8
+    <!-- 29-Apr-2016, tatu: trying to upgrade to 3.0.1 now, for Jackson 2.8
+         04-Nov-2016, tatu: and to 3.2.0 for Jackson 2.9
       -->
-    <version.plugin.bundle>3.0.1</version.plugin.bundle>
+    <version.plugin.bundle>3.2.0</version.plugin.bundle>
 
     <version.plugin.jar>2.5</version.plugin.jar>
     <version.plugin.javadoc>2.9.1</version.plugin.javadoc>
+
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.3</version.plugin.release>
     <version.plugin.replacer>1.5.2</version.plugin.replacer>
@@ -173,7 +172,15 @@
               <!--
                | stops the "uses" clauses being added to "Export-Package" manifest entry
               -->
+<!-- 04-Nov-2016, tatu: Not quite sure why it was disabled; see
+
+  https://github.com/FasterXML/jackson-jaxrs-providers/issues/93
+
+  for problem caused. Because of this, removed from Jackson 2.9
+
               <_nouses>true</_nouses>
+-->
+
               <!--
                | Stop the JAVA_1_n_HOME variables from being treated as headers by Bnd
               -->
