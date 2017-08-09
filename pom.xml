@@ -104,7 +104,10 @@
     <version.plugin.shade>2.4.3</version.plugin.shade>
 
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
-    <version.plugin.enforcer>1.4.1</version.plugin.enforcer>
+    <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
+          prior to 3.0.0
+      -->
+    <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
     <version.plugin.surefire>2.17</version.plugin.surefire>
     <version.plugin.compiler>3.2</version.plugin.compiler>
 
@@ -267,7 +270,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>${maven-enforcer-plugin}</version>
+        <version>${version.plugin.enforcer}</version>
         <executions>
           <execution>
             <id>enforce-java</id>
