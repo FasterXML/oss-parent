@@ -64,6 +64,10 @@
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
+    <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
+
+    <javadoc.maxmemory>1g</javadoc.maxmemory>
+
     <!-- Use 1.6 as default baseline -->
     <javac.src.version>1.6</javac.src.version>
     <javac.target.version>1.6</javac.target.version>
@@ -100,7 +104,7 @@
 
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.3</version.plugin.release>
-    <version.plugin.replacer>1.5.2</version.plugin.replacer>
+    <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.shade>2.4.3</version.plugin.shade>
 
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
@@ -111,9 +115,8 @@
     <version.plugin.surefire>2.17</version.plugin.surefire>
     <version.plugin.compiler>3.2</version.plugin.compiler>
 
-    <javadoc.maxmemory>1g</javadoc.maxmemory>
-
-    <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
+    <!-- other "well-known" lib versions -->
+    <version.junit>4.12</version.junit>
 
   </properties>
 
@@ -135,11 +138,37 @@
     <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>1.7</version>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
           <version>2.5</version>
         </plugin>
-
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-deploy-plugin</artifactId>
+          <version>2.7</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-install-plugin</artifactId>
+          <!-- 09-Dec-2016, tatu: 'skip' added in 2.4 (latest now 2.5.2)
+            -->
+          <version>2.4</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+	  <version>${version.plugin.javadoc}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.google.code.maven-replacer-plugin</groupId>
+          <artifactId>maven-replacer-plugin</artifactId>
+          <version>${version.plugin.replacer}</version>
+        </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
@@ -148,40 +177,18 @@
 
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-install-plugin</artifactId>
-          <!-- 09-Dec-2016, tatu: 'skip' added in 2.4 (latest now 2.5.2)
-            -->
-          <version>2.4</version>
+          <artifactId>maven-shade-plugin</artifactId>
+          <version>${version.plugin.shade}</version>
         </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.7</version>
-        </plugin>
-
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.1</version>
         </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-shade-plugin</artifactId>
-          <version>${version.plugin.shade}</version>
-        </plugin>
-
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>cobertura-maven-plugin</artifactId>
           <version>${version.plugin.cobertura}</version>
-        </plugin>
-
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-javadoc-plugin</artifactId>
-	  <version>${version.plugin.javadoc}</version>
         </plugin>
 
         <plugin>
@@ -236,6 +243,9 @@
           </configuration>
         </plugin>
 
+        <!-- Plug-in settings needed for Maven/Nexus release handling
+          -->
+
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
@@ -246,7 +256,6 @@
             <arguments>-Prelease</arguments>
           </configuration>
         </plugin>
-
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-maven-plugin</artifactId>
@@ -255,12 +264,6 @@
             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
             <serverAuthId>sonatype-nexus-staging</serverAuthId>
           </configuration>
-        </plugin>
-
-        <plugin>
-          <groupId>org.codehaus.mojo</groupId>
-          <artifactId>build-helper-maven-plugin</artifactId>
-          <version>1.7</version>
         </plugin>
 
       </plugins>

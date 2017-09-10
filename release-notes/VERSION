@@ -6,6 +6,11 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+31 (09-Sep-2017)
+
+- Update `maven-replacer-plugin` 1.5.2 -> 1.5.3
+- Reorganize dependency management slightly
+
 30 (09-Aug-2017)
 
 - Update `cobertura-maven-plugin` 2.6 -> 2.7
