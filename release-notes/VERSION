@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+32 (not yet released)
+
+- Update `maven-javadoc-plugin` to 3.0.0-M1 for Java 9
+
 31 (09-Sep-2017)
 
 - Update `maven-replacer-plugin` 1.5.2 -> 1.5.3
