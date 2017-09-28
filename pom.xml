@@ -99,8 +99,15 @@
       -->
     <version.plugin.bundle>3.2.0</version.plugin.bundle>
 
+    <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
+          prior to 3.0.0
+      -->
+    <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
+
     <version.plugin.jar>2.5</version.plugin.jar>
-    <version.plugin.javadoc>2.9.1</version.plugin.javadoc>
+
+    <!-- 3.0.0-M1 required for Java 9 -->
+    <version.plugin.javadoc>3.0.0-M1</version.plugin.javadoc>
 
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.3</version.plugin.release>
@@ -108,10 +115,7 @@
     <version.plugin.shade>2.4.3</version.plugin.shade>
 
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
-    <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
-          prior to 3.0.0
-      -->
-    <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
+
     <version.plugin.surefire>2.17</version.plugin.surefire>
     <version.plugin.compiler>3.2</version.plugin.compiler>
 
