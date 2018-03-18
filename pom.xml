@@ -117,7 +117,7 @@
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
 
     <version.plugin.surefire>2.17</version.plugin.surefire>
-    <version.plugin.compiler>3.2</version.plugin.compiler>
+    <version.plugin.compiler>3.7.0</version.plugin.compiler>
 
     <!-- other "well-known" lib versions -->
     <version.junit>4.12</version.junit>
@@ -573,7 +573,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.4</version>
+            <version>1.6</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
