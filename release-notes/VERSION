@@ -9,6 +9,8 @@ The parent pom for various FasterXML projects.
 32 (not yet released)
 
 - Update `maven-javadoc-plugin` to 3.0.0-M1 for Java 9
+- Update `maven-compiler-plugin` to 3.7.0 (from 3.2)
+- Update `mave-gpg-pluging` to 1.6 (from 1.4)
 
 31 (09-Sep-2017)
 
