@@ -314,6 +314,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${version.plugin.compiler}</version>
         <configuration>
+          <compilerId>javac-with-errorprone</compilerId>
+          <forceJavacCompilerUse>true</forceJavacCompilerUse>
           <source>${javac.src.version}</source>
           <target>${javac.target.version}</target>
           <showDeprecation>true</showDeprecation>
@@ -325,6 +327,18 @@
           <debug>true</debug>
           <debuglevel>${javac.debuglevel}</debuglevel>
         </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-compiler-javac-errorprone</artifactId>
+            <version>2.8.3</version>
+          </dependency>
+          <dependency>
+            <groupId>com.google.errorprone</groupId>
+            <artifactId>error_prone_core</artifactId>
+            <version>2.2.0</version>
+          </dependency>
+        </dependencies>
       </plugin>
 
       <plugin>
