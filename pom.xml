@@ -99,11 +99,17 @@
       -->
     <version.plugin.bundle>3.2.0</version.plugin.bundle>
 
+    <version.plugin.clean>2.6.1</version.plugin.clean>
+    <version.plugin.cobertura>2.7</version.plugin.cobertura>
+    <version.plugin.compiler>3.7.0</version.plugin.compiler>
+    <version.plugin.deploy>2.8.2</version.plugin.deploy>
+
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
       -->
     <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
 
+    <version.plugin.install>2.5.2</version.plugin.install>
     <version.plugin.jar>2.5</version.plugin.jar>
 
     <!-- 3.0.0-M1 required for Java 9 -->
@@ -112,12 +118,11 @@
     <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.3</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
+    <version.plugin.resources>2.7</version.plugin.resources>
     <version.plugin.shade>2.4.3</version.plugin.shade>
-
-    <version.plugin.cobertura>2.7</version.plugin.cobertura>
+    <version.plugin.site>3.1</version.plugin.site>
 
     <version.plugin.surefire>2.17</version.plugin.surefire>
-    <version.plugin.compiler>3.7.0</version.plugin.compiler>
 
     <!-- other "well-known" lib versions -->
     <version.junit>4.12</version.junit>
@@ -149,19 +154,17 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>2.5</version>
+          <version>${version.plugin.clean}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>2.7</version>
+          <version>${version.plugin.deploy}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-install-plugin</artifactId>
-          <!-- 09-Dec-2016, tatu: 'skip' added in 2.4 (latest now 2.5.2)
-            -->
-          <version>2.4</version>
+          <version>${version.plugin.install}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -176,7 +179,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>2.6</version>
+          <version>${version.plugin.resources}</version>
         </plugin>
 
         <plugin>
@@ -187,7 +190,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
-          <version>3.1</version>
+          <version>${version.plugin.site}</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
