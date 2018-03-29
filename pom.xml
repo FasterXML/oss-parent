@@ -104,6 +104,8 @@
     <version.plugin.compiler>3.7.0</version.plugin.compiler>
     <version.plugin.deploy>2.8.2</version.plugin.deploy>
 
+    <version.plugin.gpg>1.6</version.plugin.gpg>
+
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
       -->
@@ -115,12 +117,14 @@
     <!-- 3.0.0-M1 required for Java 9 -->
     <version.plugin.javadoc>3.0.0-M1</version.plugin.javadoc>
 
-    <!-- 2.4.2 had issues in releasing non-snapshot versions -->
     <version.plugin.release>2.5.3</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>2.7</version.plugin.resources>
     <version.plugin.shade>2.4.3</version.plugin.shade>
     <version.plugin.site>3.1</version.plugin.site>
+
+    <!-- 2.2 has a bug, revert to 2.1.2 -->
+    <version.plugin.source>2.1.2</version.plugin.source>
 
     <version.plugin.surefire>2.17</version.plugin.surefire>
 
@@ -160,6 +164,11 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-deploy-plugin</artifactId>
           <version>${version.plugin.deploy}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>${version.plugin.gpg}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -526,8 +535,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
-            <!-- 2.2 has a bug, revert to 2.1.2 -->
-            <version>2.1.2</version>
+            <version>${version.plugin.source}</version>
             <executions>
               <execution>
                 <id>attach-sources</id>
@@ -582,7 +590,6 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
