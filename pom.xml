@@ -101,7 +101,10 @@
 
     <version.plugin.clean>2.6.1</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
-    <version.plugin.compiler>3.7.0</version.plugin.compiler>
+
+    <!-- 05-Dec-2018, compiler plugin 3.7.0 -> 3.8.0 for v34
+      -->
+    <version.plugin.compiler>3.8.0</version.plugin.compiler>
     <version.plugin.deploy>2.8.2</version.plugin.deploy>
 
     <version.plugin.gpg>1.6</version.plugin.gpg>
@@ -116,6 +119,9 @@
 
     <!-- 3.0.0-M1 required for Java 9 -->
     <version.plugin.javadoc>3.0.0-M1</version.plugin.javadoc>
+
+    <!-- 05-Dec-2018, new property for v34, for Java 9+ Modules support -->
+    <version.plugin.moditect>1.0.0.Beta1</version.plugin.moditect>
 
     <version.plugin.release>2.5.3</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
@@ -180,8 +186,15 @@
           <artifactId>maven-javadoc-plugin</artifactId>
 	  <version>${version.plugin.javadoc}</version>
         </plugin>
+        <!-- 05-Dec-2018, tatu: v34 adds "moditect" plug-in, for Java 9+ Module support -->
         <plugin>
-          <!-- 26-Mar-2018, tatu: This is a weird comonent; up to 1.4.1 has
+          <groupId>org.moditect</groupId>
+          <artifactId>moditect-maven-plugin</artifactId>
+	  <version>${version.plugin.moditect}</version>
+        </plugin>
+
+        <plugin>
+          <!-- 26-Mar-2018, tatu: This is a weird component; up to 1.4.1 has
                   artifact `maven-replacer-plugin`; from 1.5 just `replacer`?!?!
             -->
           <groupId>com.google.code.maven-replacer-plugin</groupId>
@@ -331,6 +344,16 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>${version.plugin.compiler}</version>
+        <!-- 05-Dec-2018, tatu: Looks like override needed for some reason
+          (probably for Java 9+ Module support)
+        -->
+        <dependencies>
+          <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>7.0</version>
+          </dependency>
+        </dependencies>
         <configuration>
           <source>${javac.src.version}</source>
           <target>${javac.target.version}</target>
