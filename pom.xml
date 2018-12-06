@@ -85,7 +85,8 @@
     <osgi.dynamicImport />
     <osgi.private />
     <osgi.requiredExecutionEnvironment />
-    <osgi.versionpolicy>${range;[===,=+);${@}}</osgi.versionpolicy>
+    <!--suppress UnresolvedMavenProperty -->
+      <osgi.versionpolicy>${range;[===,=+);${@}}</osgi.versionpolicy>
     <osgi.includeResource>{maven-resources}</osgi.includeResource>
     <!-- 27-Dec-2015, tatu: Allow use of "Main-Class" too, default to empty -->
     <osgi.mainClass />
@@ -191,7 +192,9 @@
         <plugin>
           <groupId>org.moditect</groupId>
           <artifactId>moditect-maven-plugin</artifactId>
-	  <version>${version.plugin.moditect}</version>
+	      <version>${version.plugin.moditect}</version>
+
+
         </plugin>
 
         <plugin>
@@ -334,6 +337,7 @@
                   <banSnapshots>true</banSnapshots>
                   <phases>clean,deploy,site</phases>
                   <message>[ERROR] Best Practice is to always define plugin versions!</message>
+                  <unCheckedPluginList>org.moditect:moditect-maven-plugin</unCheckedPluginList>
                 </requirePluginVersions>
               </rules>
             </configuration>
