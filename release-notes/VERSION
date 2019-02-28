@@ -16,6 +16,7 @@ The parent pom for various FasterXML projects.
 - Update `version.plugin.surefire` to 2.22.0 (from 2.17)
 - Add new `version.plugin.moditect` at 1.0.0.Beta1;
   default version for "org.moditect#moditect-maven-plugin"
+- Update `asm` to `7.0`
 
 32 (27-Mar-2018)
 
