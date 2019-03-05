@@ -120,8 +120,10 @@
     <!-- 3.0.0-M1 required for Java 9 -->
     <version.plugin.javadoc>3.0.0-M1</version.plugin.javadoc>
 
-    <!-- 05-Dec-2018, new property for v34, for Java 9+ Modules support -->
-    <version.plugin.moditect>1.0.0.Beta1</version.plugin.moditect>
+    <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
+             (originally added in v34)
+     -->
+    <version.plugin.moditect>1.0.0.Beta2</version.plugin.moditect>
 
     <version.plugin.release>2.5.3</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
