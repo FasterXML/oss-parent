@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+36 (not yet released)
+
+- `version.plugin.bundle` to 4.1.0 (from 3.2.0)
+
 35 (04-Mar-2019)
 
 - Update `version.plugin.shade` to `3.2.1` (from `2.4.3`)

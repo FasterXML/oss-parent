@@ -94,10 +94,10 @@
      | shared build/report plugins version
     -->
 
-    <!-- 29-Apr-2016, tatu: trying to upgrade to 3.0.1 now, for Jackson 2.8
-         04-Nov-2016, tatu: and to 3.2.0 for Jackson 2.9
+    <!-- 04-Nov-2016, tatu: 3.2.0 for Jackson 2.9
+         05-Mar-2019, tatu: 4.1.0 for Jackson 2.10
       -->
-    <version.plugin.bundle>3.2.0</version.plugin.bundle>
+    <version.plugin.bundle>4.1.0</version.plugin.bundle>
 
     <version.plugin.clean>2.6.1</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
