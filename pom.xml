@@ -95,9 +95,9 @@
     -->
 
     <!-- 04-Nov-2016, tatu: 3.2.0 for Jackson 2.9
-         05-Mar-2019, tatu: 4.1.0 for Jackson 2.10
+         05-Mar-2019, tatu: 4.2.0 for Jackson 2.10
       -->
-    <version.plugin.bundle>4.1.0</version.plugin.bundle>
+    <version.plugin.bundle>4.2.0</version.plugin.bundle>
 
     <version.plugin.clean>2.6.1</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
