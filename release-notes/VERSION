@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+37 (not yet released)
+
+- `version.plugin.surefire` to 2.22.2 from 2.22.0 (for JDK11)
+
 36 (18-May-2019)
 
 - `version.plugin.bundle` to 4.2.0 (from 3.2.0)

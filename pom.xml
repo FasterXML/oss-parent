@@ -137,7 +137,8 @@
     <version.plugin.source>2.1.2</version.plugin.source>
 
     <!-- 05-Dec-2018, 2.17 -> 2.22.0 -->
-    <version.plugin.surefire>2.22.0</version.plugin.surefire>
+    <!-- 19-May-2019, 2.22.0 -> 2.22.0 (for JDK 11) -->
+    <version.plugin.surefire>2.22.2</version.plugin.surefire>
 
     <!-- other "well-known" lib versions -->
     <version.junit>4.12</version.junit>
