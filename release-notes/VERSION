@@ -9,6 +9,7 @@ The parent pom for various FasterXML projects.
 38 (not yet released)
 
 - Add `maven-dependency-plugin` as managed, with version 3.1.1
+- `version.javadoc.plugin` to 3.0.1 from 3.0.0-M1
 
 37 (20-May-2019)
 
