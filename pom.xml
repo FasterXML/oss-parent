@@ -107,14 +107,14 @@
     <version.plugin.compiler>3.8.0</version.plugin.compiler>
     <version.plugin.deploy>3.0.0-M1</version.plugin.deploy>
 
-    <version.plugin.gpg>1.6</version.plugin.gpg>
-
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
       -->
     <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
+    <version.plugin.gpg>1.6</version.plugin.gpg>
 
     <version.plugin.install>3.0.0-M1</version.plugin.install>
+    <version.plugin.jacoco>0.8.5</version.plugin.jacoco>
     <version.plugin.jar>3.1.2</version.plugin.jar>
 
     <!-- 3.0 required for Java 9 -->
@@ -316,6 +316,61 @@
     </pluginManagement>
 
     <plugins>
+      <!-- In Alphabetic order by 'artifactId' -->
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>add-generated-sources</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>add-source</goal>
+            </goals>
+            <configuration>
+              <sources>
+                <source>${generatedSourcesDir}</source>
+              </sources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>${version.plugin.jacoco}</version>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>${version.plugin.compiler}</version>
+        <!-- 05-Dec-2018, tatu: Looks like override needed for some reason 
+          (probably for Java 9+ Module support) 
+        -->
+        <dependencies>
+          <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm</artifactId>
+            <version>7.0</version>
+          </dependency>
+        </dependencies>
+        <configuration>
+          <source>${javac.src.version}</source>
+          <target>${javac.target.version}</target>
+          <showDeprecation>true</showDeprecation>
+          <showWarnings>true</showWarnings>
+          <optimize>true</optimize>
+          <!-- 16-Apr-2013, tatu: As per Nick W's suggestions, let's 
+              use these to reduce jar size 
+            -->
+          <debug>true</debug>
+          <debuglevel>${javac.debuglevel}</debuglevel>
+        </configuration>
+      </plugin>
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
@@ -352,80 +407,16 @@
       </plugin>
 
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>${version.plugin.compiler}</version>
-        <!-- 05-Dec-2018, tatu: Looks like override needed for some reason
-          (probably for Java 9+ Module support)
-        -->
-        <dependencies>
-          <dependency>
-            <groupId>org.ow2.asm</groupId>
-            <artifactId>asm</artifactId>
-            <version>7.0</version>
-          </dependency>
-        </dependencies>
-        <configuration>
-          <source>${javac.src.version}</source>
-          <target>${javac.target.version}</target>
-          <showDeprecation>true</showDeprecation>
-          <showWarnings>true</showWarnings>
-          <optimize>true</optimize>
-          <!-- 16-Apr-2013, tatu: As per Nick W's suggestions, let's
-              use these to reduce jar size
-            -->
-          <debug>true</debug>
-          <debuglevel>${javac.debuglevel}</debuglevel>
-        </configuration>
-      </plugin>
-
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>add-generated-sources</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <configuration>
-              <sources>
-                <source>${generatedSourcesDir}</source>
-              </sources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${version.plugin.surefire}</version>
-      </plugin>
-
-      <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
         <version>${version.plugin.bundle}</version>
         <extensions>true</extensions>
       </plugin>
-
+      
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>${version.plugin.jar}</version>
-      </plugin>
-      <plugin>
-        <artifactId>maven-site-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>attach-descriptor</id>
-            <goals>
-              <goal>attach-descriptor</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
 
       <plugin>
@@ -440,6 +431,26 @@
           </dependency>
         </dependencies>
       </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-descriptor</id>
+            <goals>
+              <goal>attach-descriptor</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>${version.plugin.surefire}</version>
+      </plugin>
+
     </plugins>
 
     <extensions>
