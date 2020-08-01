@@ -96,52 +96,51 @@
 
     <!-- 04-Nov-2016, tatu: 3.2.0 for Jackson 2.9
          05-Mar-2019, tatu: 4.2.0 for Jackson 2.10
+         31-Jul-2020, tatu: 5.1.1 for Jackson 2.12
       -->
-    <version.plugin.bundle>4.2.0</version.plugin.bundle>
+    <version.plugin.bundle>5.1.1</version.plugin.bundle>
 
-    <version.plugin.clean>2.6.1</version.plugin.clean>
+    <version.plugin.clean>3.1.0</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
 
-    <!-- 05-Dec-2018, compiler plugin 3.7.0 -> 3.8.0 for v34
+    <!-- 31-Jul-2020, tatu: 3.8.1 for Jackson 2.12
       -->
-    <version.plugin.compiler>3.8.0</version.plugin.compiler>
+    <version.plugin.compiler>3.8.1</version.plugin.compiler>
     <version.plugin.deploy>3.0.0-M1</version.plugin.deploy>
 
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
       -->
-    <version.plugin.enforcer>3.0.0-M1</version.plugin.enforcer>
+    <version.plugin.enforcer>3.0.0-M3</version.plugin.enforcer>
     <version.plugin.gpg>1.6</version.plugin.gpg>
 
     <version.plugin.install>3.0.0-M1</version.plugin.install>
     <version.plugin.jacoco>0.8.5</version.plugin.jacoco>
-    <version.plugin.jar>3.1.2</version.plugin.jar>
+    <version.plugin.jar>3.2.0</version.plugin.jar>
 
-    <!-- 3.0 required for Java 9 -->
-    <version.plugin.javadoc>3.0.1</version.plugin.javadoc>
+    <version.plugin.javadoc>3.2.0</version.plugin.javadoc>
 
     <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
              (originally added in v34)
      -->
-    <version.plugin.moditect>1.0.0.Beta2</version.plugin.moditect>
+    <version.plugin.moditect>1.0.0.RC1</version.plugin.moditect>
 
-    <version.plugin.release>2.5.3</version.plugin.release>
+    <version.plugin.release>3.0.0-M1</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
-    <version.plugin.resources>2.7</version.plugin.resources>
+    <version.plugin.resources>3.1.0</version.plugin.resources>
 
-    <!-- 18-Jan-2019, boost 2.4.3 -> 3.2.1 for v35 -->
-    <version.plugin.shade>3.2.1</version.plugin.shade>
-    <version.plugin.site>3.1</version.plugin.site>
+    <version.plugin.shade>3.2.4</version.plugin.shade>
+    <version.plugin.site>3.9.1</version.plugin.site>
 
-    <!-- 2.2 had a bug (reverted to 2.1.2)... but hopefully 3.0.1 works better -->
-    <version.plugin.source>3.0.1</version.plugin.source>
+    <version.plugin.source>3.2.1</version.plugin.source>
 
     <!-- 05-Dec-2018, 2.17 -> 2.22.0 -->
-    <!-- 19-May-2019, 2.22.0 -> 2.22.0 (for JDK 11) -->
+    <!-- 19-May-2019, 2.22.0 -> 2.22.2 (for JDK 11) -->
+    <!-- 31-Jul-2020, 2.22.2 -> 3.0.0-M5 -->
     <version.plugin.surefire>2.22.2</version.plugin.surefire>
 
     <!-- other "well-known" lib versions -->
-    <version.junit>4.12</version.junit>
+    <version.junit>4.13</version.junit>
 
   </properties>
 
@@ -175,7 +174,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>3.1.1</version>
+          <version>3.1.2</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>

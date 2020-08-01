@@ -6,6 +6,22 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+40 (31-Jul-2020)
+
+- `version.plugin.bundle` to 5.1.1 from 4.2.0
+- `version.plugin.clean` to 3.1.0 from 2.6.1
+- `version.plugin.compiler` to 3.8.1 from 3.8.0
+- `version.plugin.enforcer` to 3.0.0-M3 from 3.0.0-M1
+- `version.plugin.jar` to 3.2.0 from 3.1.2
+- `version.plugin.javadoc` to 3.2.0 from 3.0.1
+- `version.plugin.moditect` to 1.0.0.RC1 from 1.0.0.Beta2
+- `version.plugin.release` to 3.0.0-M1 from 2.5.3
+- `version.plugin.resources` to 3.1.0 from 2.7
+- `version.plugin.shade` to 3.2.4 from 3.2.1
+- `version.plugin.site` to 3.9.1 from 3.1
+- `version.source.plugin` to 3.2.1 from 3.0.1
+- `version.plugin.surefire` to 3.0.0-M5 from 2.22.2
+
 39 (23-May-2020)
 
 - Add `org.jacoco:jacoco-maven-plugin` version 0.8.5
