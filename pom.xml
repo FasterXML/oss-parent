@@ -140,7 +140,8 @@
     <version.plugin.surefire>2.22.2</version.plugin.surefire>
 
     <!-- other "well-known" lib versions -->
-    <version.junit>4.13</version.junit>
+    <!-- 13-Oct-2020, 4.13 -> 4.13.1 (version 41) -->
+    <version.junit>4.13.1</version.junit>
 
   </properties>
 
