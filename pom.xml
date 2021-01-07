@@ -195,25 +195,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-javadoc-plugin</artifactId>
-	  <version>${version.plugin.javadoc}</version>
-        </plugin>
-        <!-- 05-Dec-2018, tatu: v34 adds "moditect" plug-in, for Java 9+ Module support -->
-        <plugin>
-          <groupId>org.moditect</groupId>
-          <artifactId>moditect-maven-plugin</artifactId>
-	  <version>${version.plugin.moditect}</version>
-        </plugin>
-
-        <plugin>
-          <!-- 26-Mar-2018, tatu: This is a weird component; up to 1.4.1 has
-                  artifact `maven-replacer-plugin`; from 1.5 just `replacer`?!?!
-            -->
-          <groupId>com.google.code.maven-replacer-plugin</groupId>
-          <artifactId>replacer</artifactId>
-<!--
-          <artifactId>maven-replacer-plugin</artifactId>
--->
-          <version>${version.plugin.replacer}</version>
+          <version>${version.plugin.javadoc}</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -230,6 +212,29 @@
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-site-plugin</artifactId>
           <version>${version.plugin.site}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-source-plugin</artifactId>
+          <version>${version.plugin.source}</version>
+        </plugin>
+        <!-- 05-Dec-2018, tatu: v34 adds "moditect" plug-in, for Java 9+ Module support -->
+        <plugin>
+          <groupId>org.moditect</groupId>
+          <artifactId>moditect-maven-plugin</artifactId>
+          <version>${version.plugin.moditect}</version>
+        </plugin>
+
+        <plugin>
+          <!-- 26-Mar-2018, tatu: This is a weird component; up to 1.4.1 has
+                  artifact `maven-replacer-plugin`; from 1.5 just `replacer`?!?!
+            -->
+          <groupId>com.google.code.maven-replacer-plugin</groupId>
+          <artifactId>replacer</artifactId>
+<!--
+          <artifactId>maven-replacer-plugin</artifactId>
+-->
+          <version>${version.plugin.replacer}</version>
         </plugin>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
@@ -409,7 +414,6 @@
       <plugin>
         <groupId>org.apache.felix</groupId>
         <artifactId>maven-bundle-plugin</artifactId>
-        <version>${version.plugin.bundle}</version>
         <extensions>true</extensions>
       </plugin>
       
