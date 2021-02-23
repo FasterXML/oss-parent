@@ -115,7 +115,7 @@
     <version.plugin.gpg>1.6</version.plugin.gpg>
 
     <version.plugin.install>3.0.0-M1</version.plugin.install>
-    <version.plugin.jacoco>0.8.5</version.plugin.jacoco>
+    <version.plugin.jacoco>0.8.6</version.plugin.jacoco>
     <version.plugin.jar>3.2.0</version.plugin.jar>
 
     <version.plugin.javadoc>3.2.0</version.plugin.javadoc>

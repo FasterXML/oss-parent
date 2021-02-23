@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+42 (not yet released)
+
+- `version.plugin.jacoco` to 0.8.6 from 0.8.5
+
 41 (13-Oct-2020)
 
 - `version.junit` to 4.13.1 from 4.13
