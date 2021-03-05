@@ -8,6 +8,7 @@ The parent pom for various FasterXML projects.
 
 42 (not yet released)
 
+- Comment out settings for unused "org.sonatype.plugins:nexus-maven-plugin"
 - `version.plugin.jacoco` to 0.8.6 from 0.8.5
 
 41 (13-Oct-2020)

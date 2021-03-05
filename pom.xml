@@ -307,6 +307,8 @@
             <arguments>-Prelease</arguments>
           </configuration>
         </plugin>
+	<!-- 05-Mar-2021, tatu: I don't think this is in use at all?
+
         <plugin>
           <groupId>org.sonatype.plugins</groupId>
           <artifactId>nexus-maven-plugin</artifactId>
@@ -316,6 +318,7 @@
             <serverAuthId>sonatype-nexus-staging</serverAuthId>
           </configuration>
         </plugin>
+-->
 
       </plugins>
     </pluginManagement>
