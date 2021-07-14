@@ -6,6 +6,11 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+43 (13-Jul-2021)
+
+- `version.plugin.javadoc` to 3.3.0 from 3.2.0
+- Javadoc link from Java 7 -> Java 8
+
 42 (25-May-2021)
 
 - Comment out settings for unused "org.sonatype.plugins:nexus-maven-plugin"

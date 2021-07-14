@@ -118,7 +118,7 @@
     <version.plugin.jacoco>0.8.7</version.plugin.jacoco>
     <version.plugin.jar>3.2.0</version.plugin.jar>
 
-    <version.plugin.javadoc>3.2.0</version.plugin.javadoc>
+    <version.plugin.javadoc>3.3.0</version.plugin.javadoc>
 
     <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
              (originally added in v34)
@@ -495,7 +495,7 @@
           <additionalJOption>-J-Xmx1024m</additionalJOption>
           <maxmemory>${javadoc.maxmemory}</maxmemory>
           <links>
-            <link>http://docs.oracle.com/javase/7/docs/api/</link>
+            <link>http://docs.oracle.com/javase/8/docs/api/</link>
           </links>
           <docletArtifact>
             <groupId>com.google.doclava</groupId>
