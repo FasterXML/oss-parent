@@ -139,6 +139,8 @@
     <!-- 31-Jul-2020, 2.22.2 -> 3.0.0-M5 -->
     <version.plugin.surefire>2.22.2</version.plugin.surefire>
 
+    <version.plugin.wrapper>3.1.0</version.plugin.wrapper>
+
     <!-- other "well-known" lib versions -->
     <!-- 13-Oct-2020, 4.13 -> 4.13.1 (version 41) -->
     <version.junit>4.13.1</version.junit>
@@ -218,7 +220,13 @@
           <artifactId>maven-source-plugin</artifactId>
           <version>${version.plugin.source}</version>
         </plugin>
-        <!-- 05-Dec-2018, tatu: v34 adds "moditect" plug-in, for Java 9+ Module support -->
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-wrapper-plugin</artifactId>
+          <version>${version.plugin.wrapper}</version>
+        </plugin>
+
+	<!-- 05-Dec-2018, tatu: v34 adds "moditect" plug-in, for Java 9+ Module support -->
         <plugin>
           <groupId>org.moditect</groupId>
           <artifactId>moditect-maven-plugin</artifactId>
