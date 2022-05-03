@@ -143,7 +143,8 @@
 
     <!-- other "well-known" lib versions -->
     <!-- 13-Oct-2020, 4.13 -> 4.13.1 (version 41) -->
-    <version.junit>4.13.1</version.junit>
+    <!-- 03-May-2020, 4.13.1 -> 4.13.2 (version 45) -->
+    <version.junit>4.13.2</version.junit>
 
   </properties>
 
