@@ -38,7 +38,7 @@
     <connection>scm:git:git@github.com:FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:FasterXML/oss-parent.git</developerConnection>
     <url>http://github.com/FasterXML/oss-parent</url>
-    <tag>oss-parent-40-2</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
