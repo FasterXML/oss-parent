@@ -63,6 +63,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- enable Reproducible Builds -->
+    <project.build.outputTimestamp>2022-09-16T00:59:00Z</project.build.outputTimestamp>
 
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
 
@@ -98,7 +100,7 @@
          05-Mar-2019, tatu: 4.2.0 for Jackson 2.10
          31-Jul-2020, tatu: 5.1.1 for Jackson 2.12
       -->
-    <version.plugin.bundle>5.1.1</version.plugin.bundle>
+    <version.plugin.bundle>5.1.8</version.plugin.bundle>
 
     <version.plugin.clean>3.1.0</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
@@ -116,7 +118,7 @@
 
     <version.plugin.install>3.0.0-M1</version.plugin.install>
     <version.plugin.jacoco>0.8.7</version.plugin.jacoco>
-    <version.plugin.jar>3.2.0</version.plugin.jar>
+    <version.plugin.jar>3.2.2</version.plugin.jar>
 
     <version.plugin.javadoc>3.3.0</version.plugin.javadoc>
 
@@ -125,11 +127,11 @@
      -->
     <version.plugin.moditect>1.0.0.RC1</version.plugin.moditect>
 
-    <version.plugin.release>3.0.0-M1</version.plugin.release>
+    <version.plugin.release>3.0.0-M6</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.1.0</version.plugin.resources>
 
-    <version.plugin.shade>3.2.4</version.plugin.shade>
+    <version.plugin.shade>3.4.0</version.plugin.shade>
     <version.plugin.site>3.9.1</version.plugin.site>
 
     <version.plugin.source>3.2.1</version.plugin.source>
