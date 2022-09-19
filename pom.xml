@@ -108,7 +108,7 @@
     <!-- 31-Jul-2020, tatu: 3.8.1 for Jackson 2.12
       -->
     <version.plugin.compiler>3.10.1</version.plugin.compiler>
-    <version.plugin.deploy>3.0.0-M1</version.plugin.deploy>
+    <version.plugin.deploy>3.0.0</version.plugin.deploy>
 
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
