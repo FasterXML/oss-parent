@@ -6,6 +6,15 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+46 (18-Sep-2022)
+
+#31: Enable Reproducible Builds, including:
+  - `version.plugin.bundle` to 5.1.8 (from 5.1.1)
+  - `version.plugin.jar` to 3.2.2 (from 3.2.0)
+  - `version.plugin.release` to 3.0.0-M6 (from 3.0.0-M1)
+  - `version.plugin.shade` to 3.4.0 (from 3.2.4)
+ (contributed by @hboutemy)
+
 45 (03-May-2022)
 
 - `version.junit` to 4.13.2 from 4.13.1
