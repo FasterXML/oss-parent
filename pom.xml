@@ -116,7 +116,7 @@
     <version.plugin.enforcer>3.0.0-M3</version.plugin.enforcer>
     <version.plugin.gpg>1.6</version.plugin.gpg>
 
-    <version.plugin.install>3.0.0-M1</version.plugin.install>
+    <version.plugin.install>3.0.1</version.plugin.install>
     <version.plugin.jacoco>0.8.7</version.plugin.jacoco>
     <version.plugin.jar>3.2.2</version.plugin.jar>
 
