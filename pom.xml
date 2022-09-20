@@ -481,7 +481,7 @@
       <extension>
         <groupId>org.apache.maven.scm</groupId>
         <artifactId>maven-scm-manager-plexus</artifactId>
-        <version>1.9.1</version>
+        <version>1.13.0</version>
       </extension>
 
       <!-- WTH is this? -->
