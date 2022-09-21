@@ -23,6 +23,7 @@ The parent pom for various FasterXML projects.
 - Version of `maven-project-info-reports-plugin` to 3.4.1 (from 2.5)
 - Version of `maven-scm-manager-plexus` to 1.13.0 (from 1.9.1)
 - Version of `maven-scm-provider-gitexe` to 1.13.0 (from 1.9.1)
+- Version of `org.ow2.asm:asm` to 9.3 (from 7.0)
 
 46 (18-Sep-2022)
 
