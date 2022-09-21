@@ -141,7 +141,7 @@
     <!-- 31-Jul-2020, 2.22.2 -> 3.0.0-M5 -->
     <version.plugin.surefire>2.22.2</version.plugin.surefire>
 
-    <version.plugin.wrapper>3.1.0</version.plugin.wrapper>
+    <version.plugin.wrapper>3.1.1</version.plugin.wrapper>
 
     <!-- other "well-known" lib versions -->
     <!-- 13-Oct-2020, 4.13 -> 4.13.1 (version 41) -->
