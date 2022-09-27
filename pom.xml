@@ -118,7 +118,7 @@
 
     <version.plugin.install>3.0.1</version.plugin.install>
     <version.plugin.jacoco>0.8.7</version.plugin.jacoco>
-    <version.plugin.jar>3.2.2</version.plugin.jar>
+    <version.plugin.jar>3.3.0</version.plugin.jar>
 
     <version.plugin.javadoc>3.4.1</version.plugin.javadoc>
 
