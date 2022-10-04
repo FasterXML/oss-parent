@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+Not yet released
+
+- Version of `asm` to 9.4 (from 9.3)
+
 48 (27-Sep-2022)
 
 #55: Remove non-reproducible `Implementation-Build-Date` manifest entry
