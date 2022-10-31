@@ -131,7 +131,7 @@
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.0</version.plugin.resources>
 
-    <version.plugin.shade>3.4.0</version.plugin.shade>
+    <version.plugin.shade>3.4.1</version.plugin.shade>
     <version.plugin.site>3.12.1</version.plugin.site>
 
     <version.plugin.source>3.2.1</version.plugin.source>
