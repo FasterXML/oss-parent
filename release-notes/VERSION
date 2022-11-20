@@ -9,8 +9,10 @@ The parent pom for various FasterXML projects.
 Not yet released
 
 - Version of `asm` to 9.4 (from 9.3)
-- `version.plugin.shade` to 3.4.1 (from 3.4.0)
+- `version.plugin.install` to 3.1.0 (from 3.0.1)
 - `version.plugin.jacoco` to 0.8.8 (from 0.8.7)
+- `version.plugin.release` to 3.0.0-M7 (from 3.0.0-M6)
+- `version.plugin.shade` to 3.4.1 (from 3.4.0)
 
 48 (27-Sep-2022)
 
