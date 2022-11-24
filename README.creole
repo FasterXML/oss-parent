@@ -1,6 +1,6 @@
 == Introduction ==
 
-This project contains share parent POM for projects in FasterXML repository.
+This project contains shared parent POM for projects in FasterXML repository.
 
 == Usage ==
 
@@ -10,7 +10,7 @@ When starting a new project, please use the already configured _parent pom_ to a
 <parent>
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>7</version>
+  <version>49</version>
 </parent>
 }}}
 
@@ -25,16 +25,14 @@ You usually only need to read these once; and only if you handle releasing of ne
  To do this you will need to have a public and private keypair.
  There is a very good [[http://www.sonatype.com/people/2010/01/how-to-generate-pgp-signatures-with-maven/|guide]] that
  will walk you though this.
-
- * Install Maven 2.2.1 or higher. 2.2.0 has a bug that will produce invalid checksums;
- * We strongly encourage our developers to install Maven 3.0.4.
+ * Install Maven 3.3.0 or higher.
 
 === Configuration ===
 
 ==== Maven ====
-As of Maven 2.1.0 you can now encrypt your servers passwords.  We highly recommend that you follow this
-[[http://maven.apache.org/guides/mini/guide-encryption.html|guide]] to set your master password and use it to encrypt
-your Sonatype password in the next section.
+
+Maven can encrypt your servers passwords.  We highly recommend that you follow this
+[[http://maven.apache.org/guides/mini/guide-encryption.html|guide]] to set your master password and use it to encrypt your Sonatype password in the next section.
 
 ==== Sonatype ====
 Using the instructions from the previous step encrypt your Sonatype password and add the following servers to your
