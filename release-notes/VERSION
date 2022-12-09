@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+Not yet released
+
+- Version of `maven-dependency-plugin` to 3.4.0 (from 3.3.0)
+
 49 (22-Nov-2022)
 
 - Version of `asm` to 9.4 (from 9.3)
