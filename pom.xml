@@ -113,7 +113,7 @@
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
           prior to 3.0.0
       -->
-    <version.plugin.enforcer>3.0.0-M3</version.plugin.enforcer>
+    <version.plugin.enforcer>3.2.1</version.plugin.enforcer>
     <version.plugin.gpg>3.0.1</version.plugin.gpg>
 
     <version.plugin.install>3.1.0</version.plugin.install>
@@ -180,7 +180,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
-          <version>3.4.0</version>
+          <version>3.5.0</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
@@ -530,7 +530,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>3.4.1</version>
+        <version>3.4.2</version>
       </plugin>
 
       <plugin>
@@ -554,7 +554,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-pmd-plugin</artifactId>
-        <version>3.19.0</version>
+        <version>3.20.0</version>
         <configuration>
           <linkXref>true</linkXref>
           <minimumTokens>100</minimumTokens>
