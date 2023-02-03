@@ -136,10 +136,7 @@
 
     <version.plugin.source>3.2.1</version.plugin.source>
 
-    <!-- 05-Dec-2018, 2.17 -> 2.22.0 -->
-    <!-- 19-May-2019, 2.22.0 -> 2.22.2 (for JDK 11) -->
-    <!-- 31-Jul-2020, 2.22.2 -> 3.0.0-M5 -->
-    <version.plugin.surefire>2.22.2</version.plugin.surefire>
+    <version.plugin.surefire>3.0.0-M8</version.plugin.surefire>
 
     <version.plugin.wrapper>3.1.1</version.plugin.wrapper>
 
