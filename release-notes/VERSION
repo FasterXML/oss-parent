@@ -9,9 +9,10 @@ The parent pom for various FasterXML projects.
 Not yet released
 
 - Version of `maven-dependency-plugin` to 3.4.0 (from 3.3.0)
+- Version of `maven-deploy-plugin` to 3.1.0 (from 3.0.0)
 - Version of `maven-enforcer-plugin` to 3.2.1 (from 3.0.0-M3)
 - Version of `maven-pmd-plugin` to 3.20.0 (from 3.19.0)
-- Version of `maven-surefire-plugin` to 3.0.0-M8 (from 2.22.2)
+- Version of `maven-surefire-plugin` to 3.0.0-M9 (from 2.22.2)
 
 49 (22-Nov-2022)
 
