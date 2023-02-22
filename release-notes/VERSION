@@ -8,6 +8,7 @@ The parent pom for various FasterXML projects.
 
 Not yet released
 
+- `version.plugin.javadoc` to 3.5.0 (from 3.4.1)
 - Version of `maven-dependency-plugin` to 3.4.0 (from 3.3.0)
 - Version of `maven-deploy-plugin` to 3.1.0 (from 3.0.0)
 - Version of `maven-enforcer-plugin` to 3.2.1 (from 3.0.0-M3)
