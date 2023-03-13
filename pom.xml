@@ -107,7 +107,7 @@
 
     <!-- 31-Jul-2020, tatu: 3.8.1 for Jackson 2.12
       -->
-    <version.plugin.compiler>3.10.1</version.plugin.compiler>
+    <version.plugin.compiler>3.11.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.0</version.plugin.deploy>
 
     <!-- 08-Aug-2017, tatu: Enforcer plugin will not work with Java 9
@@ -138,7 +138,7 @@
 
     <version.plugin.surefire>3.0.0-M9</version.plugin.surefire>
 
-    <version.plugin.wrapper>3.1.1</version.plugin.wrapper>
+    <version.plugin.wrapper>3.2.0</version.plugin.wrapper>
 
     <!-- other "well-known" lib versions -->
     <!-- 13-Oct-2020, 4.13 -> 4.13.1 (version 41) -->
