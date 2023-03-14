@@ -136,7 +136,7 @@
 
     <version.plugin.source>3.2.1</version.plugin.source>
 
-    <version.plugin.surefire>3.0.0-M9</version.plugin.surefire>
+    <version.plugin.surefire>3.0.0</version.plugin.surefire>
 
     <version.plugin.wrapper>3.2.0</version.plugin.wrapper>
 
