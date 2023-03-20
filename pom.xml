@@ -127,7 +127,7 @@
      -->
     <version.plugin.moditect>1.0.0.RC2</version.plugin.moditect>
 
-    <version.plugin.release>3.0.0-M7</version.plugin.release>
+    <version.plugin.release>3.0.0</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.0</version.plugin.resources>
 
