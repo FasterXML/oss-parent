@@ -6,6 +6,13 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+52 (not yet released)
+
+- `maven-project-info-reports-plugin` to 3.4.3 (from 3.4.2)
+- `maven-scm-provider-gitexe` to 2.0.1 (from 1.13.0/2.0.0)
+- `version.plugin.resources` to 3.3.1 (from 3.3.0)
+- `version.plugin.surefire` to 3.1.0 (from 3.0.0)
+
 51 (06-May-2023)
 
 - `maven-scm-manager-plexus` to 2.0.0 (from 1.13.0)
