@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+53 (not yet released)
+
+- `version.plugin.jacoco` to 0.8.10 (from 0.8.8)
+
 52 (20-May-2023)
 
 - `maven-project-info-reports-plugin` to 3.4.3 (from 3.4.2)
