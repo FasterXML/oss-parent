@@ -96,11 +96,7 @@
      | shared build/report plugins version
     -->
 
-    <!-- 04-Nov-2016, tatu: 3.2.0 for Jackson 2.9
-         05-Mar-2019, tatu: 4.2.0 for Jackson 2.10
-         31-Jul-2020, tatu: 5.1.1 for Jackson 2.12
-      -->
-    <version.plugin.bundle>5.1.8</version.plugin.bundle>
+    <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
     <version.plugin.clean>3.2.0</version.plugin.clean>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
@@ -377,7 +373,6 @@
           <target>${javac.target.version}</target>
           <showDeprecation>true</showDeprecation>
           <showWarnings>true</showWarnings>
-          <optimize>true</optimize>
           <!-- 16-Apr-2013, tatu: As per Nick W's suggestions, let's 
               use these to reduce jar size 
             -->
