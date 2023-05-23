@@ -122,6 +122,7 @@
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
+    <version.plugin.scm>2.0.1</version.plugin.scm>
     <version.plugin.shade>3.4.1</version.plugin.shade>
     <version.plugin.site>4.0.0-M8</version.plugin.site>
 
@@ -426,12 +427,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-scm-plugin</artifactId>
-        <version>2.0.0</version>
+        <version>${version.plugin.scm}</version>
         <dependencies>
           <dependency>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-provider-gitexe</artifactId>
-            <version>2.0.1</version>
+            <version>${version.plugin.scm}</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -461,13 +462,13 @@
       <extension>
         <groupId>org.apache.maven.scm</groupId>
         <artifactId>maven-scm-provider-gitexe</artifactId>
-        <version>2.0.1</version>
+        <version>${version.plugin.scm}</version>
       </extension>
 
       <extension>
         <groupId>org.apache.maven.scm</groupId>
         <artifactId>maven-scm-manager-plexus</artifactId>
-        <version>2.0.0</version>
+        <version>${version.plugin.scm}</version>
       </extension>
 
       <!-- WTH is this? -->
