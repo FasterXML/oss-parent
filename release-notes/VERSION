@@ -10,8 +10,11 @@ The parent pom for various FasterXML projects.
 
 - `build-helper-maven-plugin` to 3.4.0 (from 3.3.0)
 - `version.plugin.bundle` to 5.1.9 (from 5.1.8)
+- `version.dependency.plugin` to 3.6.0 (from 3.5.0)
+- `version.plugin.deploy` to 3.1.1 (from 3.1.0)
 - `version.plugin.jacoco` to 0.8.10 (from 0.8.8)
 - `version.plugin.site` to 4.0.0-M8 (from 3.12.1)
+- `version.plugin.source` to 3.3.0 (from 3.2.1)
 - Remove unused "optimize" property from `maven-compiler-plugin`
 
 52 (20-May-2023)
