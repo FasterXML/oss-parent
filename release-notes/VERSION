@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-53 (not yet released)
+53 (22-May-2023)
 
 - `build-helper-maven-plugin` to 3.4.0 (from 3.3.0)
 - `version.plugin.bundle` to 5.1.9 (from 5.1.8)
