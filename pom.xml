@@ -130,7 +130,7 @@
     <version.plugin.shade>3.4.1</version.plugin.shade>
     <version.plugin.site>3.12.1</version.plugin.site>
 
-    <version.plugin.source>3.2.1</version.plugin.source>
+    <version.plugin.source>3.3.0</version.plugin.source>
 
     <version.plugin.surefire>3.1.0</version.plugin.surefire>
 
