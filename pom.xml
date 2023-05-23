@@ -102,7 +102,7 @@
     <version.plugin.dependency>3.6.0</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.11.0</version.plugin.compiler>
-    <version.plugin.deploy>3.1.0</version.plugin.deploy>
+    <version.plugin.deploy>3.1.1</version.plugin.deploy>
     <version.plugin.enforcer>3.2.1</version.plugin.enforcer>
     <version.plugin.gpg>3.0.1</version.plugin.gpg>
 
@@ -124,7 +124,7 @@
     <version.plugin.shade>3.4.1</version.plugin.shade>
     <version.plugin.site>4.0.0-M8</version.plugin.site>
 
-    <version.plugin.source>3.2.1</version.plugin.source>
+    <version.plugin.source>3.3.0</version.plugin.source>
 
     <version.plugin.surefire>3.1.0</version.plugin.surefire>
 
