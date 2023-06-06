@@ -118,7 +118,7 @@
     <version.plugin.moditect>1.0.0.Final</version.plugin.moditect>
 
     <version.plugin.pmd>3.21.0</version.plugin.pmd>
-    <version.plugin.release>3.0.0</version.plugin.release>
+    <version.plugin.release>3.0.1</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
