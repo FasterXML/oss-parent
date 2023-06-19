@@ -123,7 +123,7 @@
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
     <version.plugin.scm>2.0.1</version.plugin.scm>
-    <version.plugin.shade>3.4.1</version.plugin.shade>
+    <version.plugin.shade>3.5.0</version.plugin.shade>
     <version.plugin.site>4.0.0-M8</version.plugin.site>
 
     <version.plugin.source>3.3.0</version.plugin.source>
