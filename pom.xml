@@ -103,14 +103,14 @@
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.11.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.1</version.plugin.deploy>
-    <version.plugin.enforcer>3.3.0</version.plugin.enforcer>
+    <version.plugin.enforcer>3.4.1</version.plugin.enforcer>
     <version.plugin.gpg>3.1.0</version.plugin.gpg>
 
     <version.plugin.install>3.1.1</version.plugin.install>
     <version.plugin.jacoco>0.8.10</version.plugin.jacoco>
     <version.plugin.jar>3.3.0</version.plugin.jar>
 
-    <version.plugin.javadoc>3.5.0</version.plugin.javadoc>
+    <version.plugin.javadoc>3.6.0</version.plugin.javadoc>
 
     <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
              (originally added in v34)
@@ -123,8 +123,8 @@
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
     <version.plugin.scm>2.0.1</version.plugin.scm>
-    <version.plugin.shade>3.5.0</version.plugin.shade>
-    <version.plugin.site>4.0.0-M8</version.plugin.site>
+    <version.plugin.shade>3.5.1</version.plugin.shade>
+    <version.plugin.site>4.0.0-M9</version.plugin.site>
 
     <version.plugin.source>3.3.0</version.plugin.source>
 
