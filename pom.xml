@@ -124,7 +124,7 @@
 
     <version.plugin.scm>2.0.1</version.plugin.scm>
     <version.plugin.shade>3.5.1</version.plugin.shade>
-    <version.plugin.site>4.0.0-M8</version.plugin.site>
+    <version.plugin.site>4.0.0-M9</version.plugin.site>
 
     <version.plugin.source>3.3.0</version.plugin.source>
 
