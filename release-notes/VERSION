@@ -6,12 +6,15 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-Not yet released
+55 (26-Sep-2023)
 
 - `version.plugin.clean` to 3.3.1 (from 3.2.0)
+- `version.plugin.enforcer` to 3.4.1 (from 3.3.0)
+- `version.plugin.javadoc` to 3.6.0 (from 3.5.0)
 - `version.plugin.release` to 3.0.1 (from 3.0.0)
 - `version.plugin.surefire` to 3.1.2 (from 3.1.0)
-- `version.plugin.shade` to 3.5.0 (from 3.4.1)
+- `version.plugin.shade` to 3.5.1 (from 3.4.1)
+- `version.plugin.site` to 4.0.0-M9 (from 4.0.0-M8)
 
 54 (30-May-2023)
 
