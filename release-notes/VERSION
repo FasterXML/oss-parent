@@ -9,6 +9,7 @@ The parent pom for various FasterXML projects.
 56 (not yet released)
 
 - `org.ow2.asm:asm` to 9.6 (from 9.5)
+- `version.plugin.site` to 4.0.0-M11 (from 4.0.0-M9)
 
 55 (26-Sep-2023)
 
