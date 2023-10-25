@@ -99,7 +99,7 @@
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
     <version.plugin.clean>3.3.1</version.plugin.clean>
-    <version.plugin.dependency>3.6.0</version.plugin.dependency>
+    <version.plugin.dependency>3.6.1</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.11.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.1</version.plugin.deploy>
