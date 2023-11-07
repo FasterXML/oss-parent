@@ -110,7 +110,7 @@
     <version.plugin.jacoco>0.8.10</version.plugin.jacoco>
     <version.plugin.jar>3.3.0</version.plugin.jar>
 
-    <version.plugin.javadoc>3.6.0</version.plugin.javadoc>
+    <version.plugin.javadoc>3.6.2</version.plugin.javadoc>
 
     <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
              (originally added in v34)
