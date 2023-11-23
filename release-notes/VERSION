@@ -10,6 +10,7 @@ Not yet released
 
 - `version.plugin.javadoc` to 3.6.2 (from 3.6.0)
 - `version.plugin.surefire` to 3.2.2 (from 3.2.1)
+- `org.apache.maven.plugins:maven-project-info-reports-plugin` to 3.5.0 (from 3.4.5)
 
 56 (06-Nov-2023)
 
