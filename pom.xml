@@ -101,7 +101,7 @@
     <version.plugin.clean>3.3.2</version.plugin.clean>
     <version.plugin.dependency>3.6.1</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
-    <version.plugin.compiler>3.12.0</version.plugin.compiler>
+    <version.plugin.compiler>3.12.1</version.plugin.compiler>
     <version.plugin.deploy>3.1.1</version.plugin.deploy>
     <version.plugin.enforcer>3.4.1</version.plugin.enforcer>
     <version.plugin.gpg>3.1.0</version.plugin.gpg>
