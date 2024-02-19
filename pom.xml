@@ -137,6 +137,9 @@
     <!-- 03-May-2020, 4.13.1 -> 4.13.2 (version 45) -->
     <version.junit>4.13.2</version.junit>
 
+    <!-- 19-Feb-2024: Let's add JUnit5 (jupiter) too -->
+    <version.junit5>5.10.2</version.junit5>
+
     <version.assertj>3.24.2</version.assertj>
     
   </properties>

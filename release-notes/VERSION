@@ -6,9 +6,9 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-Not yet released:
+58 (19-Feb-2024)
 
--
+* Add `version.junit5` (5.10.2) to use
 
 57 (09-Feb-2024)
 
