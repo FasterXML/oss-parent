@@ -115,7 +115,7 @@
     <!-- 04-Mar-2019, latest property with v35, for Java 9+ Modules support 
              (originally added in v34)
      -->
-    <version.plugin.moditect>1.1.0</version.plugin.moditect>
+    <version.plugin.moditect>1.2.0.Final</version.plugin.moditect>
 
     <version.plugin.pmd>3.21.2</version.plugin.pmd>
     <version.plugin.release>3.0.1</version.plugin.release>
