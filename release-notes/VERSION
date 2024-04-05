@@ -8,15 +8,16 @@ The parent pom for various FasterXML projects.
 
 Not yet released
 
-* `org.ow2.asm:asm` to 9.7 (from 9.6)
-* `version.plugin.compiler` to 3.13.0 (from 3.12.1)
-* `version.plugin.gpg` to 3.2.2 (from 3.1.0)
-* `version.plugin.moditect` to 1.2.1.Final (from 1.1.0)
-* `version.plugin.shade` to 3.5.2 (from 3.5.1)
+- `org.ow2.asm:asm` to 9.7 (from 9.6)
+- `version.plugin.compiler` to 3.13.0 (from 3.12.1)
+- `version.plugin.gpg` to 3.2.2 (from 3.1.0)
+- `version.plugin.jacoco` to 0.8.12 (from 0.8.11)
+- `version.plugin.moditect` to 1.2.1.Final (from 1.1.0)
+- `version.plugin.shade` to 3.5.2 (from 3.5.1)
 
 58 (19-Feb-2024)
 
-* Add `version.junit5` (5.10.2) to use
+- Add `version.junit5` (5.10.2) to use
 
 57 (09-Feb-2024)
 
