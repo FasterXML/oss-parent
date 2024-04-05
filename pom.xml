@@ -123,7 +123,7 @@
     <version.plugin.shade>3.5.2</version.plugin.shade>
     <version.plugin.site>4.0.0-M11</version.plugin.site>
 
-    <version.plugin.source>3.3.0</version.plugin.source>
+    <version.plugin.source>3.3.1</version.plugin.source>
 
     <version.plugin.surefire>3.2.5</version.plugin.surefire>
 
