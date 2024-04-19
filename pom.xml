@@ -104,7 +104,7 @@
     <version.plugin.compiler>3.13.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.1</version.plugin.deploy>
     <version.plugin.enforcer>3.4.1</version.plugin.enforcer>
-    <version.plugin.gpg>3.2.3</version.plugin.gpg>
+    <version.plugin.gpg>3.2.4</version.plugin.gpg>
 
     <version.plugin.install>3.1.1</version.plugin.install>
     <version.plugin.jacoco>0.8.12</version.plugin.jacoco>
