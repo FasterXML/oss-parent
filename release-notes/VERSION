@@ -10,9 +10,9 @@ Not yet released
 
 - `org.ow2.asm:asm` to 9.7 (from 9.6)
 - `version.plugin.compiler` to 3.13.0 (from 3.12.1)
-- `version.plugin.gpg` to 3.2.3 (from 3.1.0)
+- `version.plugin.gpg` to 3.2.4 (from 3.1.0)
 - `version.plugin.jacoco` to 0.8.12 (from 0.8.11)
-- `version.plugin.jar` to 3.4.0 (from 3.3.0)
+- `version.plugin.jar` to 3.4.1 (from 3.3.0)
 - `version.plugin.moditect` to 1.2.1.Final (from 1.1.0)
 - `version.plugin.shade` to 3.5.2 (from 3.5.1)
 - `version.plugin.source` to 3.3.1 (from 3.3.0)
