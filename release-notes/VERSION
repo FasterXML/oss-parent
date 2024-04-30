@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-Not yet released
+59 (30-Apr-2024)
 
 - `org.ow2.asm:asm` to 9.7 (from 9.6)
 - `version.plugin.compiler` to 3.13.0 (from 3.12.1)
