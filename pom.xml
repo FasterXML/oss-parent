@@ -120,7 +120,7 @@
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
     <version.plugin.scm>2.1.0</version.plugin.scm>
-    <version.plugin.shade>3.5.3</version.plugin.shade>
+    <version.plugin.shade>3.6.0</version.plugin.shade>
     <version.plugin.site>4.0.0-M11</version.plugin.site>
 
     <version.plugin.source>3.3.1</version.plugin.source>
