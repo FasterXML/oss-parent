@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+Unreleased:
+
+-
+
 60 (01-Jul-2024)
 
 - `org.codehaus.mojo:build-helper-maven-plugin` to 3.6.0 (from 3.5.0)
