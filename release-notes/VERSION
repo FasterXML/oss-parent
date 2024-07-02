@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-Not yet released
+60 (01-Jul-2024)
 
 - `org.codehaus.mojo:build-helper-maven-plugin` to 3.6.0 (from 3.5.0)
 - `version.plugin.clean` to 3.4.0 (from 3.3.2)
@@ -14,6 +14,7 @@ Not yet released
 - `version.plugin.enforcer` to 3.5.0 (from 3.4.1)
 - `version.plugin.jar` to 3.4.2 (from 3.4.1)
 - `version.plugin.javadoc` to 3.7.0 (from 3.6.2)
+- `version.plugin.moditect` to 1.2.2.Final (from 1.2.1)
 - `version.plugin.release` to 3.1.0 (from 3.0.1)
 - `version.plugin.shade` to 3.6.0 (from 3.5.3)
 - `version.plugin.surefire` 3.3.0 (from 3.2.5)
