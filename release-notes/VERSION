@@ -8,7 +8,8 @@ The parent pom for various FasterXML projects.
 
 Unreleased:
 
--
+- Removed definition of `org.codehaus.mojo:taglist-maven-plugin`
+ (not used by anything)
 
 60 (01-Jul-2024)
 
