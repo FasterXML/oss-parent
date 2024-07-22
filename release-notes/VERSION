@@ -8,7 +8,9 @@ The parent pom for various FasterXML projects.
 
 Unreleased:
 
+- `version.plugin.javadoc` to 3.8.0 (from 3.7.0)
 - `version.plugin.release` to 3.1.1 (from 3.1.0)
+- `version.plugin.site` to 4.0.0-M16 (from 4.0.0-M11)
 - `version.plugin.surefire` 3.3.1 (from 3.3.0)
 - Removed definition of `org.codehaus.mojo:taglist-maven-plugin`
  (not used by anything)
