@@ -5,7 +5,7 @@
 
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>61</version>
+  <version>62-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>FasterXML.com parent pom</name>
@@ -64,7 +64,7 @@
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- enable Reproducible Builds -->
-    <project.build.outputTimestamp>2024-08-27T03:08:08Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-08-27T03:08:53Z</project.build.outputTimestamp>
 
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
 
