@@ -112,7 +112,7 @@
 
     <version.plugin.javadoc>3.10.0</version.plugin.javadoc>
 
-    <version.plugin.moditect>1.2.2.Final</version.plugin.moditect>
+    <version.plugin.moditect>1.1.0</version.plugin.moditect>
 
     <version.plugin.pmd>3.25.0</version.plugin.pmd>
     <version.plugin.release>3.1.1</version.plugin.release>
