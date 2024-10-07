@@ -110,7 +110,7 @@
     <version.plugin.jacoco>0.8.12</version.plugin.jacoco>
     <version.plugin.jar>3.4.2</version.plugin.jar>
 
-    <version.plugin.javadoc>3.10.0</version.plugin.javadoc>
+    <version.plugin.javadoc>3.10.1</version.plugin.javadoc>
 
     <version.plugin.moditect>1.2.2.Final</version.plugin.moditect>
 
