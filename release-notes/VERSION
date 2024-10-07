@@ -7,9 +7,10 @@ The parent pom for various FasterXML projects.
 ------------------------------------------------------------------------
 
 - `version.plugin.gpg` to 3.2.7 (from 3.2.5)
-- `version.plugin.javadoc` to 3.10.0 (from 3.8.0)
+- `version.plugin.javadoc` to 3.10.1 (from 3.8.0)
 - `version.plugin.pmd` to 3.25.0 (from 3.23.0)
-- `version.plugin.surefire` 3.5.0 (from 3.4.0)
+- `version.plugin.surefire` 3.5.1 (from 3.4.0)
+- `org.ow2.asm:asm` to 9.7.1 (from 9.7)
 
 61 (26-Aug-2024)
 
