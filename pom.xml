@@ -110,11 +110,11 @@
     <version.plugin.jacoco>0.8.12</version.plugin.jacoco>
     <version.plugin.jar>3.4.2</version.plugin.jar>
 
-    <version.plugin.javadoc>3.10.1</version.plugin.javadoc>
+    <version.plugin.javadoc>3.11.1</version.plugin.javadoc>
 
     <version.plugin.moditect>1.2.2.Final</version.plugin.moditect>
 
-    <version.plugin.pmd>3.25.0</version.plugin.pmd>
+    <version.plugin.pmd>3.26.0</version.plugin.pmd>
     <version.plugin.release>3.1.1</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.1</version.plugin.resources>
@@ -125,7 +125,7 @@
 
     <version.plugin.source>3.3.1</version.plugin.source>
 
-    <version.plugin.surefire>3.5.1</version.plugin.surefire>
+    <version.plugin.surefire>3.5.2</version.plugin.surefire>
 
     <version.plugin.wrapper>3.3.2</version.plugin.wrapper>
 
