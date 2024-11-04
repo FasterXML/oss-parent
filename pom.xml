@@ -125,7 +125,7 @@
 
     <version.plugin.source>3.3.1</version.plugin.source>
 
-    <version.plugin.surefire>3.5.1</version.plugin.surefire>
+    <version.plugin.surefire>3.5.2</version.plugin.surefire>
 
     <version.plugin.wrapper>3.3.2</version.plugin.wrapper>
 
