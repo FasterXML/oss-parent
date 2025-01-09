@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+62 (08-Jan-2025)
+
+- `version.junit5` to 5.11.4
+- `version.assertj` to 3.27.2
 - `org.apache.maven.plugins:maven-jxr-plugin` to 3.6.0 (from 3.5.0)
 - `version.plugin.dependency` to 3.8.1 (from 3.8.0)
 - `version.plugin.gpg` to 3.2.7 (from 3.2.5)
