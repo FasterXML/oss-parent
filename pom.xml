@@ -494,18 +494,11 @@
           <useStandardDocletOptions>false</useStandardDocletOptions>
           <additionalJOption>-J-Xmx1024m</additionalJOption>
           <maxmemory>${javadoc.maxmemory}</maxmemory>
-          <links>
-            <link>http://docs.oracle.com/javase/8/docs/api/</link>
-          </links>
           <docletArtifact>
             <groupId>com.google.doclava</groupId>
             <artifactId>doclava</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.6</version>
           </docletArtifact>
-          <additionalparam>
-            -hdf project.name "${project.name}"
-            -d ${project.reporting.outputDirectory}/apidocs
-          </additionalparam>
         </configuration>
         <reportSets>
           <reportSet>

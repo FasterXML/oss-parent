@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+63 (13-Feb-2025)
+
+- Trimmed some javadoc plug-in options
+
 62 (08-Jan-2025)
 
 - `version.junit5` to 5.11.4
