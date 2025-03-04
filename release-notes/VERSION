@@ -6,6 +6,13 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+(not yet released)
+
+- `version.plugin.clean` to 3.4.1 (from 3.4.0)
+- `version.plugin.compiler` to 3.14.0 (from 3.13.0)
+- `version.plugin.deploy` to 3.1.4 (from 3.1.3)
+- `version.plugin.install` to 3.1.4 (from 3.1.3)
+
 63 (13-Feb-2025)
 
 - Trimmed some javadoc plug-in options
