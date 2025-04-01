@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+(not yet released)
+
+- `version.plugin.surefire` 3.5.3 (from 3.5.2)
+
 64 (07-Mar-2025)
 
 - `version.plugin.clean` to 3.4.1 (from 3.4.0)
