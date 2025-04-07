@@ -8,6 +8,7 @@ The parent pom for various FasterXML projects.
 
 (not yet released)
 
+- `version.plugin.jacoco` to 0.8.13 (from 0.8.12)
 - `version.plugin.surefire` 3.5.3 (from 3.5.2)
 
 64 (07-Mar-2025)
