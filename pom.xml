@@ -99,6 +99,7 @@
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
     <version.plugin.clean>3.4.1</version.plugin.clean>
+    <version.plugin.cyclonedx>2.9.1</version.plugin.cyclonedx>
     <version.plugin.dependency>3.8.1</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.14.0</version.plugin.compiler>
@@ -169,6 +170,11 @@
           <version>${version.plugin.clean}</version>
         </plugin>
         <plugin>
+          <groupId>org.cyclonedx</groupId>
+          <artifactId>cyclonedx-maven-plugin</artifactId>
+          <version>${version.plugin.cyclonedx}</version>
+        </plugin>
+	<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
           <version>${version.plugin.dependency}</version>
