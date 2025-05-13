@@ -8,9 +8,11 @@ The parent pom for various FasterXML projects.
 
 Not yet released
 
--
+66 (13-May-2025)
 
-65 (23-Apr-25)
+- Add "central" (Sonatype Central Portal) repo definition
+
+65 (23-Apr-2025)
 
 - Add "org.cyclonedx:cyclonedx-maven-plugin" with  `version.plugin.cyclonedx`
   (starting with 2.9.1)

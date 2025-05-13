@@ -57,6 +57,15 @@
       <name>Nexus Release Repository</name>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
+
+    <!-- 13-May-2025, tatu: Needed for new Central Portal publishing
+      -->
+    <repository>
+      <id>central</id>
+      <name>Sonatype Central Portal Repository</name>
+      <url>https://central.sonatype.com/api/v1/publisher</url>
+    </repository>
+
   </distributionManagement>
 
   <properties>
