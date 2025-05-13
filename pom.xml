@@ -110,6 +110,8 @@
 
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
+    <version.plugin.central-publishing>0.7.0</version.plugin.central-publishing>
+
     <version.plugin.clean>3.4.1</version.plugin.clean>
     <version.plugin.cyclonedx>2.9.1</version.plugin.cyclonedx>
     <version.plugin.dependency>3.8.1</version.plugin.dependency>
@@ -338,6 +340,15 @@
           </configuration>
         </plugin>
 -->
+
+        <!-- 13-May-2025, tatu: Need to add this for new Central Portal
+            publishing
+          -->
+        <plugin>
+          <groupId>org.sonatype.central</groupId>
+          <artifactId>central-publishing-maven-plugin</artifactId>
+          <version>${version.plugin.central-publishing}</version>
+        </plugin>
 
       </plugins>
     </pluginManagement>
