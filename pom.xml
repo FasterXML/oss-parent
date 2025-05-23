@@ -38,7 +38,7 @@
     <connection>scm:git:git@github.com:FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:FasterXML/oss-parent.git</developerConnection>
     <url>http://github.com/FasterXML/oss-parent</url>
-    <tag>oss-parent-61</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -161,20 +161,6 @@
     <version.assertj>3.27.2</version.assertj>
     
   </properties>
-
-  <repositories>
-    <repository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
 
   <build>
     <pluginManagement>

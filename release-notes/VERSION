@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+Not yet released
+
+- Remove snapshot repo section (not needed, won't help dependants)
+
 66 (13-May-2025)
 
 - Add "org.sonatype.central:central-publishing-maven-plugin" with
