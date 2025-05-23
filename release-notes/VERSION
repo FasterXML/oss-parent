@@ -8,6 +8,10 @@ The parent pom for various FasterXML projects.
 
 Not yet released
 
+- Branch "master" renamed as "main" to follow general best practices.
+
+67 (23-May-2025)
+
 - Remove snapshot repo section (not needed, won't help dependants)
 
 66 (13-May-2025)
