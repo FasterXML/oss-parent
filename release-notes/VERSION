@@ -6,9 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-Not yet released
+68 (26-May-2025)
 
 - Branch "master" renamed as "main" to follow general best practices.
+- First release via new Sonatype Central Portal repository
 
 67 (23-May-2025)
 

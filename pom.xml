@@ -46,6 +46,7 @@
   </issueManagement>
 
   <distributionManagement>
+    <!-- 26-May-2025, tatu: Moving to Central Portal, these are no longer needed
     <snapshotRepository>
       <id>sonatype-nexus-snapshots</id>
       <name>Sonatype Nexus Snapshots</name>
@@ -57,11 +58,9 @@
       <name>Nexus Release Repository</name>
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
+    -->
 
-    <!-- 13-May-2025, tatu: Would be needed for new Central Portal publishing?
-	  But cannot specify multiple ones, alas. Change when all moved:
-      -->
-    <!--
+    <!-- 26-May-2025, tatu: Needed for new Central Portal publishing. -->
     <snapshotRepository>
       <id>central-snapshots</id>
       <name>Sonatype Central Portal Repository (snapshots)</name>
@@ -73,7 +72,6 @@
       <name>Sonatype Central Portal Repository (releases)</name>
       <url>https://central.sonatype.com/api/v1/publisher</url>
     </repository>
-    -->
 
   </distributionManagement>
 
