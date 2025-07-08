@@ -9,6 +9,8 @@ The parent pom for various FasterXML projects.
 (not yet released)
 
 - `version.plugin.clean` to 3.5.0 (from 3.4.1)
+- `version.plugin.enforcer` to 3.6.0 (from 3.5.0)
+- `version.plugin.gpg` to 3.2.8 (from 3.2.8)
 
 68 (26-May-2025)
 
