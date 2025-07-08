@@ -123,7 +123,7 @@
     <version.plugin.compiler>3.14.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.4</version.plugin.deploy>
     <version.plugin.enforcer>3.6.0</version.plugin.enforcer>
-    <version.plugin.gpg>3.2.7</version.plugin.gpg>
+    <version.plugin.gpg>3.2.8</version.plugin.gpg>
 
     <version.plugin.install>3.1.4</version.plugin.install>
     <version.plugin.jacoco>0.8.13</version.plugin.jacoco>
@@ -133,7 +133,7 @@
 
     <version.plugin.moditect>1.2.2.Final</version.plugin.moditect>
 
-    <version.plugin.pmd>3.26.0</version.plugin.pmd>
+    <version.plugin.pmd>3.27.0</version.plugin.pmd>
     <version.plugin.release>3.1.1</version.plugin.release>
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.1</version.plugin.resources>
