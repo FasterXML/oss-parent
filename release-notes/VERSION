@@ -8,6 +8,10 @@ The parent pom for various FasterXML projects.
 
 Not yet released
 
+- `version.plugin.shade` to 3.6.1 (from 3.6.0)
+- `version.plugin.surefire` 3.5.4 (from 3.5.3)
+- `version.plugin.wrapper` to 3.3.4 (from 3.3.3)
+
 70 (01-Aug-2025)
 
 - `version.junit5` to 5.13.4 (from 5.11.4)
