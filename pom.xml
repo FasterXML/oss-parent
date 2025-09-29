@@ -138,7 +138,7 @@
     <version.plugin.replacer>1.5.3</version.plugin.replacer>
     <version.plugin.resources>3.3.1</version.plugin.resources>
 
-    <version.plugin.scm>2.1.0</version.plugin.scm>
+    <version.plugin.scm>2.2.1</version.plugin.scm>
     <version.plugin.shade>3.6.1</version.plugin.shade>
     <version.plugin.site>4.0.0-M16</version.plugin.site>
 
