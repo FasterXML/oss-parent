@@ -114,7 +114,7 @@
 
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
-    <version.plugin.central-publishing>0.8.0</version.plugin.central-publishing>
+    <version.plugin.central-publishing>0.9.0</version.plugin.central-publishing>
 
     <version.plugin.clean>3.5.0</version.plugin.clean>
     <version.plugin.cyclonedx>2.9.1</version.plugin.cyclonedx>
