@@ -6,10 +6,73 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+72 (29-Sep-2025)
+
+- `version.plugin.central-publishing` to 0.9.0 (from 0.8.0)
+- `version.plugin.compiler` to 3.14.1 (from 3.14.0)
+- `version.plugin.javadoc` to 3.12.0 (from 3.11.3)
+- `version.plugin.scm` to 2.2.1  (from 2.1.0)
+
+71 (17-Sep-2025)
+
+- `version.plugin.shade` to 3.6.1 (from 3.6.0)
+- `version.plugin.surefire` 3.5.4 (from 3.5.3)
+- `version.plugin.wrapper` to 3.3.4 (from 3.3.3)
+
+70 (01-Aug-2025)
+
+- `version.junit5` to 5.13.4 (from 5.11.4)
+- `version.plugin.moditect` to 1.3.0.Final (from 1.2.2.Final)
+- `version.plugin.enforcer` to 3.6.1 (from 3.6.0)
+
+69 (08-Jul-2025)
+
+- `version.plugin.central-publishing` to 0.8.0 (from 0.7.0)
+- `version.plugin.clean` to 3.5.0 (from 3.4.1)
+- `version.plugin.enforcer` to 3.6.0 (from 3.5.0)
+- `version.plugin.gpg` to 3.2.8 (from 3.2.8)
+- `version.plugin.pmd` to 3.27.0 (from 3.26.0)
+
+68 (26-May-2025)
+
+- Branch "master" renamed as "main" to follow general best practices.
+- First release via new Sonatype Central Portal repository
+
+67 (23-May-2025)
+
+- Remove snapshot repo section (not needed, won't help dependants)
+
+66 (13-May-2025)
+
+- Add "org.sonatype.central:central-publishing-maven-plugin" with
+ `version.plugin.central-publishing` (starting with 0.7.0)
+
+65 (23-Apr-2025)
+
+- Add "org.cyclonedx:cyclonedx-maven-plugin" with `version.plugin.cyclonedx`
+  (starting with 2.9.1)
+- `version.plugin.jacoco` to 0.8.13 (from 0.8.12)
+- `version.plugin.surefire` 3.5.3 (from 3.5.2)
+
+64 (07-Mar-2025)
+
+- `version.plugin.clean` to 3.4.1 (from 3.4.0)
+- `version.plugin.compiler` to 3.14.0 (from 3.13.0)
+- `version.plugin.deploy` to 3.1.4 (from 3.1.3)
+- `version.plugin.install` to 3.1.4 (from 3.1.3)
+
+63 (13-Feb-2025)
+
+- Trimmed some javadoc plug-in options
+
+62 (08-Jan-2025)
+
+- `version.junit5` to 5.11.4
+- `version.assertj` to 3.27.2
 - `org.apache.maven.plugins:maven-jxr-plugin` to 3.6.0 (from 3.5.0)
 - `version.plugin.dependency` to 3.8.1 (from 3.8.0)
 - `version.plugin.gpg` to 3.2.7 (from 3.2.5)
-- `version.plugin.javadoc` to 3.11.1 (from 3.8.0)
+- `version.plugin.javadoc` to 3.11.2 (from 3.8.0)
 - `version.plugin.pmd` to 3.26.0 (from 3.23.0)
 - `version.plugin.surefire` 3.5.2 (from 3.4.0)
 - `org.ow2.asm:asm` to 9.7.1 (from 9.7)
