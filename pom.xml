@@ -122,7 +122,7 @@
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.14.1</version.plugin.compiler>
     <version.plugin.deploy>3.1.4</version.plugin.deploy>
-    <version.plugin.enforcer>3.6.1</version.plugin.enforcer>
+    <version.plugin.enforcer>3.6.2</version.plugin.enforcer>
     <version.plugin.gpg>3.2.8</version.plugin.gpg>
 
     <version.plugin.install>3.1.4</version.plugin.install>
