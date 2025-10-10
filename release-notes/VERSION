@@ -11,6 +11,7 @@ Not yet released
 - `org.ow2.asm:asm` to 9.9 (from 9.8)
 - `version.plugin.dependency` to 3.9.0 (from 3.8.1)
 - `version.plugin.enforcer` to 3.6.2 (from 3.6.1)
+- Added `version.plugin.failsafe` as 3.5.4
 
 72 (29-Sep-2025)
 
