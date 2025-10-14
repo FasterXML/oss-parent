@@ -6,7 +6,11 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-72 (10-Oct-2025)
+Not yet released
+
+- `version.plugin.jacoco` to 0.8.14 (from 0.8.13)
+
+73 (10-Oct-2025)
 
 - `org.ow2.asm:asm` to 9.9 (from 9.8)
 - `version.plugin.dependency` to 3.9.0 (from 3.8.1)
