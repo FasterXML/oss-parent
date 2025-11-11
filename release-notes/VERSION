@@ -6,6 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+(Not yet released)
+
+- `version.plugin.release` to 3.2.0 (from 3.1.1)
+
 74 (06-Nov-2025)
 
 - `version.junit5` to 5.14.1  (from 5.13.4)
