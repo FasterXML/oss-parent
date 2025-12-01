@@ -10,6 +10,8 @@ The parent pom for various FasterXML projects.
 
 - `version.plugin.jar` to 3.5.0 (from 3.4.2)
 - `version.plugin.release` to 3.2.0 (from 3.1.1)
+- `version.plugin.resources` to 3.4.0 (from 3.3.1)
+- `version.plugin.source` to 3.4.0 (from 3.3.1)
 
 74 (06-Nov-2025)
 
