@@ -9,6 +9,7 @@ The parent pom for various FasterXML projects.
 (Not yet released)
 
 - `org.ow2.asm:asm` to 9.9.1 (from 9.9)
+- `version.plugin.central-publishing` to 0.10.0 (from 0.9.0)
 - `version.plugin.jar` to 3.5.0 (from 3.4.2)
 - `version.plugin.release` to 3.3.1 (from 3.1.1)
 - `version.plugin.resources` to 3.4.0 (from 3.3.1)
