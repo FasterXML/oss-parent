@@ -10,6 +10,8 @@ Not yet released:
 
 - `version.plugin.compiler` to 3.15.0 (from 3.14.1)
 - `version.plugin.dependency` to 3.10.0 (from 3.9.0)
+- `version.plugin.failsafe` 3.5.5 (from 3.5.4)
+- `version.plugin.surefire` 3.5.5 (from 3.5.4)
 
 75 (18-Jan-2026)
 
