@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-77 (not yet released)
+77 (24-Feb-2026)
 
 - `org.codehaus.mojo:build-helper-maven-plugin` to 3.6.1 (from 3.6.0)
 - Added `version.plugin.animal-sniffer` (with 1.27)
