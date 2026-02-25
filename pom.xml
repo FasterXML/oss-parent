@@ -109,6 +109,7 @@
      | shared build/report plugins version
     -->
 
+    <version.plugin.animal-sniffer>1.27</version.plugin.animal-sniffer>
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
     <version.plugin.central-publishing>0.10.0</version.plugin.central-publishing>
@@ -165,8 +166,13 @@
       <plugins>
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
+          <artifactId>animal-sniffer-maven-plugin</artifactId>
+          <version>${version.plugin.animal-sniffer}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
           <artifactId>build-helper-maven-plugin</artifactId>
-          <version>3.6.0</version>
+          <version>3.6.1</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
