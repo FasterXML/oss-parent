@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.fasterxml</groupId>
   <artifactId>oss-parent</artifactId>
-  <version>77</version>
+  <version>78-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>FasterXML.com parent pom</name>
   <description>FasterXML.com parent pom</description>
@@ -35,7 +35,7 @@
     <connection>scm:git:git@github.com:FasterXML/oss-parent.git</connection>
     <developerConnection>scm:git:git@github.com:FasterXML/oss-parent.git</developerConnection>
     <url>http://github.com/FasterXML/oss-parent</url>
-    <tag>oss-parent-77</tag>
+    <tag>HEAD</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -77,7 +77,7 @@
     <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- enable Reproducible Builds -->
-    <project.build.outputTimestamp>2026-02-25T01:46:58Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2026-02-25T01:47:04Z</project.build.outputTimestamp>
 
     <generatedSourcesDir>${project.build.directory}/generated-sources</generatedSourcesDir>
 
