@@ -154,8 +154,11 @@
     <version.junit>4.13.2</version.junit>
 
     <!-- 19-Feb-2024: Let's add JUnit5 (jupiter) too -->
-    <!-- 06-Nov-2025: sync to latest currently -->
-    <version.junit5>6.0.3</version.junit5>
+    <!-- 27-Mar-2026: sync to latest 5.x currently -->
+    <version.junit5>5.14.3</version.junit5>
+
+    <!-- 27-Mar-2026: add JUnit5 (JDK 17+) -->
+    <version.junit6>6.0.3</version.junit6>
 
     <version.assertj>3.27.7</version.assertj>
     
