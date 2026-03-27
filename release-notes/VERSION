@@ -6,8 +6,10 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-(not yet released)
+78 (27-Mar-2026)
 
+- `version.assertj` to 3.27.7 (from 3.27.2)
+- `version.junit5` to 6.0.3 (from 5.14.1)
 - `version.plugin.resources` to 3.5.0 (from 3.4.0)
 - `version.plugin.shade` to 3.6.2 (from 3.6.1)
 
