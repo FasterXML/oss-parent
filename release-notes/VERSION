@@ -6,6 +6,11 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
+80 (not yet released)
+
+- `org.ow2.asm:asm` to 9.10 (from 9.9.1)
+- `version.plugin.enforcer` to 3.6.3 (from 3.6.2)
+
 79 (27-Mar-2026)
 
 - `version.junit5` to revert back to 5.14.3)
