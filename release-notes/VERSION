@@ -12,6 +12,7 @@ The parent pom for various FasterXML projects.
 - `version.plugin.dependency` to 3.11.0 (from 3.10.0)
 - `version.plugin.enforcer` to 3.6.3 (from 3.6.2)
 - `version.plugin.failsafe` 3.5.6 (from 3.5.5)
+- `version.plugin.jacoco` to 0.8.15 (from 0.8.14)
 - `version.plugin.surefire` 3.5.6 (from 3.5.5)
 
 79 (27-Mar-2026)
