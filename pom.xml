@@ -115,7 +115,7 @@
     <version.plugin.central-publishing>0.11.0</version.plugin.central-publishing>
 
     <version.plugin.clean>3.5.0</version.plugin.clean>
-    <version.plugin.cyclonedx>2.9.2</version.plugin.cyclonedx>
+    <version.plugin.cyclonedx>2.9.3</version.plugin.cyclonedx>
     <version.plugin.dependency>3.11.0</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.15.0</version.plugin.compiler>
