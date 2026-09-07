@@ -6,7 +6,7 @@ The parent pom for various FasterXML projects.
 === Releases ===
 ------------------------------------------------------------------------
 
-80 (not yet released)
+80 (07-Sep-2026)
 
 - `org.cyclonedx:cyclonedx-maven-plugin` to 2.9.3 (from 2.9.1)
 - `org.ow2.asm:asm` to 9.10.1 (from 9.9.1)
