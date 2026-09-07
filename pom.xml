@@ -118,11 +118,11 @@
     <version.plugin.cyclonedx>2.9.3</version.plugin.cyclonedx>
     <version.plugin.dependency>3.11.0</version.plugin.dependency>
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
-    <version.plugin.compiler>3.15.0</version.plugin.compiler>
+    <version.plugin.compiler>3.16.0</version.plugin.compiler>
     <version.plugin.deploy>3.1.4</version.plugin.deploy>
     <version.plugin.enforcer>3.6.3</version.plugin.enforcer>
     <!-- 10-Oct-2025, tatu: Added in v73 -->
-    <version.plugin.failsafe>3.5.6</version.plugin.failsafe>
+    <version.plugin.failsafe>3.6.0</version.plugin.failsafe>
     <version.plugin.gpg>3.2.8</version.plugin.gpg>
 
     <version.plugin.install>3.1.4</version.plugin.install>
@@ -144,7 +144,7 @@
 
     <version.plugin.source>3.4.0</version.plugin.source>
 
-    <version.plugin.surefire>3.5.6</version.plugin.surefire>
+    <version.plugin.surefire>3.6.0</version.plugin.surefire>
 
     <version.plugin.wrapper>3.3.4</version.plugin.wrapper>
 
