@@ -112,7 +112,7 @@
     <version.plugin.animal-sniffer>1.28</version.plugin.animal-sniffer>
     <version.plugin.bundle>5.1.9</version.plugin.bundle>
 
-    <version.plugin.central-publishing>0.11.0</version.plugin.central-publishing>
+    <version.plugin.central-publishing>0.12.0</version.plugin.central-publishing>
 
     <version.plugin.clean>3.5.0</version.plugin.clean>
     <version.plugin.cyclonedx>2.9.3</version.plugin.cyclonedx>
