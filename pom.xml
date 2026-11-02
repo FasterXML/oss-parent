@@ -120,13 +120,13 @@
     <version.plugin.cobertura>2.7</version.plugin.cobertura>
     <version.plugin.compiler>3.16.0</version.plugin.compiler>
     <version.plugin.deploy>3.2.0</version.plugin.deploy>
-    <version.plugin.enforcer>3.6.3</version.plugin.enforcer>
+    <version.plugin.enforcer>3.7.0</version.plugin.enforcer>
     <!-- 10-Oct-2025, tatu: Added in v73 -->
     <version.plugin.failsafe>3.6.1</version.plugin.failsafe>
     <version.plugin.gpg>3.2.8</version.plugin.gpg>
 
     <version.plugin.install>3.2.0</version.plugin.install>
-    <version.plugin.jacoco>0.8.15</version.plugin.jacoco>
+    <version.plugin.jacoco>0.8.16</version.plugin.jacoco>
     <version.plugin.jar>3.5.1</version.plugin.jar>
 
     <version.plugin.javadoc>3.12.0</version.plugin.javadoc>
